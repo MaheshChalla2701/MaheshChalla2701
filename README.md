@@ -49,7 +49,7 @@
 <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating real public GitHub contributions over the past year. Re-rendered daily.">
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MaheshChalla2701&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=190B12&title_color=E5B5C7&text_color=B6A3AC&icon_color=C77B9B&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for MaheshChalla2701: stars, commits, pull requests and issues">
+  <img src="https://github-readme-stats.vercel.app/api?username=MaheshChalla2701&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=0D1B14&title_color=A7D8BD&text_color=AABDB2&icon_color=438B6B&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for MaheshChalla2701: stars, commits, pull requests and issues">
 </p>
 
 <img src="assets/title-certifications.svg" width="100%" alt="06 Highlights — Verified milestones, in production.">

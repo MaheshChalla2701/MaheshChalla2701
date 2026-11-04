@@ -2,9 +2,9 @@
   <title id="ce-t">Verified Deployments &amp; Engineering Milestones</title>
   <desc id="ce-d">Google Play published apps: FIZI and SplitPlan. B.E. in Computer Science at KMEC Hyderabad. Machine Learning from scratch in pure NumPy. Multi-agent consensus LLM architecture.</desc>
   <defs>
-    <linearGradient id="ce-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#190b12"/><stop offset="1" stop-color="#10070c"/></linearGradient>
-    <radialGradient id="ce-glow" cx="15%" cy="100%" r="70%"><stop offset="0" stop-color="#701a3d" stop-opacity=".5"/><stop offset="1" stop-color="#10070c" stop-opacity="0"/></radialGradient>
-    <linearGradient id="ce-edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f0f3"/><stop offset=".5" stop-color="#e5b5c7"/><stop offset="1" stop-color="#c77b9b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ce-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/></linearGradient>
+    <radialGradient id="ce-glow" cx="15%" cy="100%" r="70%"><stop offset="0" stop-color="#1F5A45" stop-opacity=".5"/><stop offset="1" stop-color="#08110C" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ce-edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3F6F1"/><stop offset=".5" stop-color="#A7D8BD"/><stop offset="1" stop-color="#438B6B" stop-opacity="0"/></linearGradient>
   </defs>
   <style>
     .ce-serif { font-family: "Cinzel", Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -18,96 +18,96 @@
   </style>
   <rect width="1200" height="420" rx="20" fill="url(#ce-bg)"/>
   <rect width="1200" height="420" rx="20" fill="url(#ce-glow)"/>
-  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#c77b9b" stroke-opacity=".16"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#438B6B" stroke-opacity=".16"/>
   
   <!-- Row 1: 4 cards -->
   <g class="ce-tile" style="animation-delay:0.20s"><g transform="translate(40 40)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.00s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">GOOGLE PLAY</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/><circle cx="227" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">FIZI: AI Fitness Ecosystem</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Published Android App</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">Live Production Store</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">GOOGLE PLAY</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/><circle cx="227" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">FIZI: AI Fitness Ecosystem</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Published Android App</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">Live Production Store</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:0.32s"><g transform="translate(325 40)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.35s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">GOOGLE PLAY</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/><circle cx="227" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">SplitPlan: Expense Planner</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Published Android App</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">Live Production Store</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">GOOGLE PLAY</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/><circle cx="227" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">SplitPlan: Expense Planner</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Published Android App</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">Live Production Store</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:0.44s"><g transform="translate(610 40)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.70s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">ACADEMIC</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">Keshav Memorial (KMEC)</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">B.E. Computer Science</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">2023 â€“ 2027</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">ACADEMIC</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">Keshav Memorial (KMEC)</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">B.E. Computer Science</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">2023 – 2027</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:0.56s"><g transform="translate(895 40)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.05s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">FIRST-PRINCIPLES</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">CNN from Scratch</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Pure NumPy Math Engine</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">Forward &amp; Backpropagation</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">FIRST-PRINCIPLES</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">CNN from Scratch</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Pure NumPy Math Engine</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">Forward &amp; Backpropagation</text>
   </g></g>
 
   <!-- Row 2: 4 cards -->
   <g class="ce-tile" style="animation-delay:0.68s"><g transform="translate(40 230)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.40s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">AGENTIC AI</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">Collaborative AI</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Multi-LLM Debate Council</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#b6a3ac">FastAPI &amp; React</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">AGENTIC AI</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">Collaborative AI</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Multi-LLM Debate Council</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#AABDB2">FastAPI &amp; React</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:0.80s"><g transform="translate(325 230)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.75s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">EVOLUTIONARY AI</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">Operation Evolve</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Autonomous Training Loop</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">PyTorch Optimization</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">EVOLUTIONARY AI</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">Operation Evolve</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Autonomous Training Loop</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">PyTorch Optimization</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:0.92s"><g transform="translate(610 230)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:4.10s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">VISION &amp; OPENCV</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">SafeStreet CV Engine</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Pothole &amp; Crack Detection</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">Geo-referenced Inspection</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">VISION &amp; OPENCV</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">SafeStreet CV Engine</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Pothole &amp; Crack Detection</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">Geo-referenced Inspection</text>
   </g></g>
 
   <g class="ce-tile" style="animation-delay:1.04s"><g transform="translate(895 230)">
-    <rect width="265" height="170" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".24"/>
     <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:4.45s"/>
-    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#c77b9b">ENGINEERING CRAFT</text>
-    <circle cx="238" cy="31" r="3.5" fill="#c77b9b"/>
-    <line x1="22" y1="54" x2="243" y2="54" stroke="#c77b9b" stroke-opacity=".15"/>
-    <text class="ce-sans" x="22" y="86" font-size="14" fill="#f8f0f3">Full-Stack &amp; Mobile</text>
-    <text class="ce-sans" x="22" y="108" font-size="14" fill="#f8f0f3">Clean Code &amp; Systems</text>
-    <text class="ce-sans" x="22" y="130" font-size="14" fill="#e5b5c7">10+ Public Repositories</text>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#438B6B">ENGINEERING CRAFT</text>
+    <circle cx="238" cy="31" r="3.5" fill="#438B6B"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#438B6B" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#F3F6F1">Full-Stack &amp; Mobile</text>
+    <text class="ce-sans" x="22" y="108" font-size="14" fill="#F3F6F1">Clean Code &amp; Systems</text>
+    <text class="ce-sans" x="22" y="130" font-size="14" fill="#A7D8BD">10+ Public Repositories</text>
   </g></g>
 </svg>
 

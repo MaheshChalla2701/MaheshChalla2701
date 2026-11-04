@@ -2,20 +2,20 @@
   <title id="p3-t">Collaborative AI: Multi-LLM consensus and debate council system.</title>
   <defs>
     <linearGradient id="p3-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#190b12"/><stop offset="1" stop-color="#10070c"/>
+      <stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/>
     </linearGradient>
     <radialGradient id="p3-glow" cx="82%" cy="30%" r="55%">
-      <stop offset="0" stop-color="#701a3d" stop-opacity=".7"/><stop offset="1" stop-color="#27101c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1F5A45" stop-opacity=".7"/><stop offset="1" stop-color="#163326" stop-opacity="0"/>
     </radialGradient>
     <pattern id="p3-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#c77b9b" stroke-opacity=".07"/>
+      <path d="M28 0H0V28" fill="none" stroke="#438B6B" stroke-opacity=".07"/>
     </pattern>
     <filter id="p3-glowf" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="p3-clip"><rect width="1200" height="370" rx="18"/></clipPath>
     <linearGradient id="p3-trace" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8f0f3"/><stop offset=".45" stop-color="#e5b5c7"/><stop offset="1" stop-color="#c77b9b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F3F6F1"/><stop offset=".45" stop-color="#A7D8BD"/><stop offset="1" stop-color="#438B6B" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
@@ -39,50 +39,50 @@
     <rect x="720" width="480" height="370" fill="url(#p3-grid)"/>
     <rect width="1200" height="370" fill="url(#p3-glow)"/>
     <g class="p3-in p3-d1">
-      <text class="p3-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#c77b9b">03 Â· AI AGENTS Â· FASTAPI Â· MULTI-LLM Â· ARCHITECTURE</text>
-      <text class="p3-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#f8f0f3">Collaborative AI</text>
-      <text class="p3-sans" x="56" y="166" font-size="17" fill="#b6a3ac">Multi-LLM consensus platform orchestrating collaborative debate between leading models.</text>
-      <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#e5b5c7"><tspan fill="#c77b9b">BUILT â€º</tspan> FastAPI async streaming, peer review arbitration, React live council UI</text>
-      <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#c77b9b" stroke-opacity=".3"/>
-      <g transform="translate(56 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#f8f0f3">3+ AGENTS</text><text class="p3-sans" y="24" font-size="12.5" fill="#b6a3ac">GPT-4, Claude, Gemini</text></g>
-      <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#f8f0f3">CONSENSUS</text><text class="p3-sans" y="24" font-size="12.5" fill="#b6a3ac">blind cross-model critique</text></g>
-      <g transform="translate(466 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#f8f0f3">STREAMING</text><text class="p3-sans" y="24" font-size="12.5" fill="#b6a3ac">low-latency async responses</text></g>
-      <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p3-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">FastAPI</text></g>
-      <g class="p3-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="65" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p3-mono" x="166" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Python</text></g>
-      <g class="p3-chip" style="animation-delay:1.24s"><rect x="207" y="314" width="60" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p3-mono" x="237" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">React</text></g>
-      <g class="p3-chip" style="animation-delay:1.36s"><rect x="275" y="314" width="75" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p3-mono" x="312" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Firebase</text></g>
-      <g class="p3-chip" style="animation-delay:1.48s"><rect x="358" y="314" width="125" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p3-mono" x="420" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Agentic Council</text></g>
+      <text class="p3-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#438B6B">03 · AI AGENTS · FASTAPI · MULTI-LLM · ARCHITECTURE</text>
+      <text class="p3-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F3F6F1">Collaborative AI</text>
+      <text class="p3-sans" x="56" y="166" font-size="17" fill="#AABDB2">Multi-LLM consensus platform orchestrating collaborative debate between leading models.</text>
+      <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#A7D8BD"><tspan fill="#438B6B">BUILT ›</tspan> FastAPI async streaming, peer review arbitration, React live council UI</text>
+      <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#438B6B" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F3F6F1">3+ AGENTS</text><text class="p3-sans" y="24" font-size="12.5" fill="#AABDB2">GPT-4, Claude, Gemini</text></g>
+      <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F3F6F1">CONSENSUS</text><text class="p3-sans" y="24" font-size="12.5" fill="#AABDB2">blind cross-model critique</text></g>
+      <g transform="translate(466 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F3F6F1">STREAMING</text><text class="p3-sans" y="24" font-size="12.5" fill="#AABDB2">low-latency async responses</text></g>
+      <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p3-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">FastAPI</text></g>
+      <g class="p3-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="65" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p3-mono" x="166" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Python</text></g>
+      <g class="p3-chip" style="animation-delay:1.24s"><rect x="207" y="314" width="60" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p3-mono" x="237" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">React</text></g>
+      <g class="p3-chip" style="animation-delay:1.36s"><rect x="275" y="314" width="75" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p3-mono" x="312" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Firebase</text></g>
+      <g class="p3-chip" style="animation-delay:1.48s"><rect x="358" y="314" width="125" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p3-mono" x="420" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Agentic Council</text></g>
     </g>
     <g class="p3-in p3-d2"><g transform="translate(0 35)">
       <g transform="translate(860 30)">
         <!-- Council orchestration visualization -->
         <g transform="translate(20 10)">
-          <rect width="90" height="36" rx="8" fill="#27101c" stroke="#c77b9b" stroke-opacity=".3"/>
-          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#e5b5c7">GPT-4o</text>
+          <rect width="90" height="36" rx="8" fill="#163326" stroke="#438B6B" stroke-opacity=".3"/>
+          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#A7D8BD">GPT-4o</text>
         </g>
         <g transform="translate(140 10)">
-          <rect width="90" height="36" rx="8" fill="#27101c" stroke="#c77b9b" stroke-opacity=".3"/>
-          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#e5b5c7">Claude 3.5</text>
+          <rect width="90" height="36" rx="8" fill="#163326" stroke="#438B6B" stroke-opacity=".3"/>
+          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#A7D8BD">Claude 3.5</text>
         </g>
         <g transform="translate(80 70)">
-          <rect width="90" height="36" rx="8" fill="#27101c" stroke="#c77b9b" stroke-opacity=".3"/>
-          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#e5b5c7">Gemini Pro</text>
+          <rect width="90" height="36" rx="8" fill="#163326" stroke="#438B6B" stroke-opacity=".3"/>
+          <text class="p3-mono" x="45" y="22" text-anchor="middle" font-size="10" fill="#A7D8BD">Gemini Pro</text>
         </g>
 
         <!-- Connecting lines -->
-        <line x1="65" y1="46" x2="125" y2="150" stroke="#c77b9b" stroke-opacity=".4" stroke-dasharray="4 4"/>
-        <line x1="185" y1="46" x2="125" y2="150" stroke="#c77b9b" stroke-opacity=".4" stroke-dasharray="4 4"/>
-        <line x1="125" y1="106" x2="125" y2="150" stroke="#c77b9b" stroke-opacity=".4"/>
+        <line x1="65" y1="46" x2="125" y2="150" stroke="#438B6B" stroke-opacity=".4" stroke-dasharray="4 4"/>
+        <line x1="185" y1="46" x2="125" y2="150" stroke="#438B6B" stroke-opacity=".4" stroke-dasharray="4 4"/>
+        <line x1="125" y1="106" x2="125" y2="150" stroke="#438B6B" stroke-opacity=".4"/>
 
         <!-- Arbiter synthesis node -->
         <g transform="translate(45 150)">
-          <rect width="160" height="60" rx="12" fill="#27101c" stroke="#c77b9b" stroke-width="1.5" filter="url(#p3-glowf)"/>
-          <text class="p3-mono" x="80" y="24" text-anchor="middle" font-size="10" fill="#c77b9b">SYNTHESIS ARBITER</text>
-          <text class="p3-serif" x="80" y="44" text-anchor="middle" font-size="13" fill="#f8f0f3">Unified Consensus</text>
+          <rect width="160" height="60" rx="12" fill="#163326" stroke="#438B6B" stroke-width="1.5" filter="url(#p3-glowf)"/>
+          <text class="p3-mono" x="80" y="24" text-anchor="middle" font-size="10" fill="#438B6B">SYNTHESIS ARBITER</text>
+          <text class="p3-serif" x="80" y="44" text-anchor="middle" font-size="13" fill="#F3F6F1">Unified Consensus</text>
         </g>
       </g>
     </g></g>
-    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#c77b9b" stroke-opacity=".2"/>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#438B6B" stroke-opacity=".2"/>
     <rect class="p3-trace" style="animation-delay:0.0s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p3-trace)" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>

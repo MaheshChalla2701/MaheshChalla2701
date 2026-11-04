@@ -1,25 +1,25 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-labelledby="sig-title">
-  <title id="sig-title">Mahesh â€” Building AI products that ship to real users.</title>
+  <title id="sig-title">Mahesh — Building AI products that ship to real users.</title>
   <defs>
     <linearGradient id="sig-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#10070c"/>
-      <stop offset="1" stop-color="#190b12"/>
+      <stop offset="0" stop-color="#08110C"/>
+      <stop offset="1" stop-color="#0D1B14"/>
     </linearGradient>
     <radialGradient id="sig-glow" cx="50%" cy="100%" r="70%">
-      <stop offset="0" stop-color="#701a3d" stop-opacity=".7"/>
-      <stop offset="1" stop-color="#064e3b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1F5A45" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#173E30" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="sig-line" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="1100" y2="0">
-      <stop offset="0" stop-color="#701a3d" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#c77b9b"/>
-      <stop offset="1" stop-color="#701a3d" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1F5A45" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#438B6B"/>
+      <stop offset="1" stop-color="#1F5A45" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
     .sig-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
     .sig-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     .sig-name {
-      stroke: #e5b5c7; stroke-width: 1; fill: #e5b5c7; fill-opacity: 0;
+      stroke: #A7D8BD; stroke-width: 1; fill: #A7D8BD; fill-opacity: 0;
       stroke-dasharray: 900; stroke-dashoffset: 900;
       animation: sig-write 3.6s cubic-bezier(.65,0,.35,1) .3s forwards;
     }
@@ -39,7 +39,7 @@
   <rect width="1200" height="230" rx="20" fill="url(#sig-bg)"/>
   <rect width="1200" height="230" rx="20" fill="url(#sig-glow)"/>
 
-  <g class="sig-sparks" fill="#e5b5c7" opacity=".9">
+  <g class="sig-sparks" fill="#A7D8BD" opacity=".9">
     <circle cx="451" cy="230" r="1.0"><animate attributeName="cy" values="232;108" dur="7.3s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.85;0" dur="7.3s" begin="2.4s" repeatCount="indefinite"/></circle>
     <circle cx="216" cy="230" r="1.5"><animate attributeName="cy" values="232;44" dur="5.3s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.85;0" dur="5.3s" begin="0.3s" repeatCount="indefinite"/></circle>
     <circle cx="208" cy="230" r="1.1"><animate attributeName="cy" values="232;94" dur="5.5s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.85;0" dur="5.5s" begin="0.4s" repeatCount="indefinite"/></circle>
@@ -59,13 +59,13 @@
   <text class="sig-serif sig-name" x="600" y="104" text-anchor="middle" font-size="76" font-style="italic" font-weight="300" letter-spacing="-1">Mahesh</text>
 
   <path class="sig-rule" d="M100 134 H1100" stroke="url(#sig-line)" stroke-width="1"/>
-  <circle cx="600" cy="134" r="3" fill="#f8f0f3" class="sig-in">
+  <circle cx="600" cy="134" r="3" fill="#F3F6F1" class="sig-in">
     <animate attributeName="r" values="3;5;3" dur="3.2s" repeatCount="indefinite"/>
   </circle>
 
   <g class="sig-in">
-    <text class="sig-serif" x="600" y="176" text-anchor="middle" font-size="20" font-style="italic" fill="#f8f0f3">Building AI products that ship to real users.</text>
-    <text class="sig-mono" x="600" y="206" text-anchor="middle" font-size="11" letter-spacing="3" fill="#b6a3ac">ENGINEERING INTELLIGENCE Â· DESIGNING EXPERIENCES</text>
+    <text class="sig-serif" x="600" y="176" text-anchor="middle" font-size="20" font-style="italic" fill="#F3F6F1">Building AI products that ship to real users.</text>
+    <text class="sig-mono" x="600" y="206" text-anchor="middle" font-size="11" letter-spacing="3" fill="#AABDB2">ENGINEERING INTELLIGENCE · DESIGNING EXPERIENCES</text>
   </g>
 </svg>
 

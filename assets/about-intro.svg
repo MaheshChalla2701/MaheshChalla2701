@@ -1,10 +1,10 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ab-t ab-d">
   <title id="ab-t">About Mahesh Challa</title>
-  <desc id="ab-d">AI Engineer and Product Builder. B.E. in Computer Science at Keshav Memorial Engineering College (2023â€“2027). Creator of FIZI and SplitPlan (both live on Google Play). Focus on AI, mobile development, computer vision, and LLMs.</desc>
+  <desc id="ab-d">AI Engineer and Product Builder. B.E. in Computer Science at Keshav Memorial Engineering College (2023–2027). Creator of FIZI and SplitPlan (both live on Google Play). Focus on AI, mobile development, computer vision, and LLMs.</desc>
   <defs>
-    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190b12"/><stop offset="1" stop-color="#10070c"/></linearGradient>
-    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#701a3d" stop-opacity=".6"/><stop offset="1" stop-color="#064e3b" stop-opacity="0"/></radialGradient>
-    <pattern id="ab-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#f8f0f3" opacity=".025"/></pattern>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/></linearGradient>
+    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#1F5A45" stop-opacity=".6"/><stop offset="1" stop-color="#173E30" stop-opacity="0"/></radialGradient>
+    <pattern id="ab-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#F3F6F1" opacity=".025"/></pattern>
     <clipPath id="ab-c0"><rect class="ab-type" x="68" y="112" width="89" height="22" style="animation-delay:0.60s;animation-duration:0.41s;animation-timing-function:steps(6)"/></clipPath>
     <clipPath id="ab-c1"><rect class="ab-type" x="68" y="137" width="540" height="22" style="animation-delay:1.16s;animation-duration:0.53s;animation-timing-function:steps(1)"/></clipPath>
     <clipPath id="ab-c2"><rect class="ab-type" x="68" y="162" width="179" height="22" style="animation-delay:2.04s;animation-duration:0.56s;animation-timing-function:steps(17)"/></clipPath>
@@ -30,53 +30,53 @@
   </style>
   <rect width="1200" height="420" rx="20" fill="url(#ab-bg)"/>
   <rect width="1200" height="420" rx="20" fill="url(#ab-glow)"/>
-  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#c77b9b" stroke-opacity=".16"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#438B6B" stroke-opacity=".16"/>
 
   <!-- Terminal window -->
   <g class="ab-fade">
-    <rect x="40" y="40" width="760" height="340" rx="14" fill="#10070c" stroke="#c77b9b" stroke-opacity=".3"/>
+    <rect x="40" y="40" width="760" height="340" rx="14" fill="#08110C" stroke="#438B6B" stroke-opacity=".3"/>
     <rect x="40" y="40" width="760" height="340" rx="14" fill="url(#ab-scan)"/>
-    <path d="M40 54 a14 14 0 0 1 14 -14 H786 a14 14 0 0 1 14 14 V76 H40 Z" fill="#190b12"/>
-    <line x1="40" y1="76" x2="800" y2="76" stroke="#c77b9b" stroke-opacity=".2"/>
-    <circle cx="62" cy="58" r="5" fill="#701a3d"/><circle cx="80" cy="58" r="5" fill="#701a3d"/><circle cx="98" cy="58" r="5" fill="#701a3d"/>
-    <text class="ab-mono" x="420" y="62" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#b6a3ac">mahesh@portfolio: ~</text>
+    <path d="M40 54 a14 14 0 0 1 14 -14 H786 a14 14 0 0 1 14 14 V76 H40 Z" fill="#0D1B14"/>
+    <line x1="40" y1="76" x2="800" y2="76" stroke="#438B6B" stroke-opacity=".2"/>
+    <circle cx="62" cy="58" r="5" fill="#1F5A45"/><circle cx="80" cy="58" r="5" fill="#1F5A45"/><circle cx="98" cy="58" r="5" fill="#1F5A45"/>
+    <text class="ab-mono" x="420" y="62" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#AABDB2">mahesh@portfolio: ~</text>
   </g>
   <g class="ab-mono" font-size="13">
-      <g clip-path="url(#ab-c0)"><text x="72" y="128" fill="#10b981">$</text><text x="94" y="128" fill="#f8f0f3">whoami</text></g>
-      <g clip-path="url(#ab-c1)"><text x="72" y="153" fill="#701a3d">â†’</text><text x="94" y="153" fill="#b6a3ac">Mahesh Challa Â· AI Engineer Â· Product Builder</text></g>
-      <g clip-path="url(#ab-c2)"><text x="72" y="178" fill="#10b981">$</text><text x="94" y="178" fill="#f8f0f3">cat education.txt</text></g>
-      <g clip-path="url(#ab-c3)"><text x="72" y="203" fill="#701a3d">â†’</text><text x="94" y="203" fill="#b6a3ac">B.E. Computer Science Â· Keshav Memorial Engg College (2023â€“27)</text></g>
-      <g clip-path="url(#ab-c4)"><text x="72" y="228" fill="#10b981">$</text><text x="94" y="228" fill="#f8f0f3">cat production.txt</text></g>
-      <g clip-path="url(#ab-c5)"><text x="72" y="253" fill="#701a3d">â†’</text><text x="94" y="253" fill="#b6a3ac">FIZI &amp; SplitPlan published and live on Google Play</text></g>
-      <g clip-path="url(#ab-c6)"><text x="72" y="278" fill="#10b981">$</text><text x="94" y="278" fill="#f8f0f3">ls ./shipped</text></g>
-      <g clip-path="url(#ab-c7)"><text x="72" y="303" fill="#701a3d">â†’</text><text x="94" y="303" fill="#b6a3ac">fizi  splitplan  safestreet  collaborative-ai  operation-evolve</text></g>
-      <g clip-path="url(#ab-c8)"><text x="72" y="328" fill="#10b981">$</text><text x="94" y="328" fill="#f8f0f3">echo $PRINCIPLE</text></g>
-      <g clip-path="url(#ab-c9)"><text x="72" y="353" fill="#701a3d">â†’</text><text x="94" y="353" fill="#b6a3ac">ship to real users Â· build closed feedback loops</text></g>
+      <g clip-path="url(#ab-c0)"><text x="72" y="128" fill="#438B6B">$</text><text x="94" y="128" fill="#F3F6F1">whoami</text></g>
+      <g clip-path="url(#ab-c1)"><text x="72" y="153" fill="#1F5A45">→</text><text x="94" y="153" fill="#AABDB2">Mahesh Challa · AI Engineer · Product Builder</text></g>
+      <g clip-path="url(#ab-c2)"><text x="72" y="178" fill="#438B6B">$</text><text x="94" y="178" fill="#F3F6F1">cat education.txt</text></g>
+      <g clip-path="url(#ab-c3)"><text x="72" y="203" fill="#1F5A45">→</text><text x="94" y="203" fill="#AABDB2">B.E. Computer Science · Keshav Memorial Engg College (2023–27)</text></g>
+      <g clip-path="url(#ab-c4)"><text x="72" y="228" fill="#438B6B">$</text><text x="94" y="228" fill="#F3F6F1">cat production.txt</text></g>
+      <g clip-path="url(#ab-c5)"><text x="72" y="253" fill="#1F5A45">→</text><text x="94" y="253" fill="#AABDB2">FIZI &amp; SplitPlan published and live on Google Play</text></g>
+      <g clip-path="url(#ab-c6)"><text x="72" y="278" fill="#438B6B">$</text><text x="94" y="278" fill="#F3F6F1">ls ./shipped</text></g>
+      <g clip-path="url(#ab-c7)"><text x="72" y="303" fill="#1F5A45">→</text><text x="94" y="303" fill="#AABDB2">fizi  splitplan  safestreet  collaborative-ai  operation-evolve</text></g>
+      <g clip-path="url(#ab-c8)"><text x="72" y="328" fill="#438B6B">$</text><text x="94" y="328" fill="#F3F6F1">echo $PRINCIPLE</text></g>
+      <g clip-path="url(#ab-c9)"><text x="72" y="353" fill="#1F5A45">→</text><text x="94" y="353" fill="#AABDB2">ship to real users · build closed feedback loops</text></g>
   </g>
-  <rect x="72" y="364" width="8" height="16" fill="#e5b5c7" class="ab-fade" style="animation-delay:8.2s">
+  <rect x="72" y="364" width="8" height="16" fill="#A7D8BD" class="ab-fade" style="animation-delay:8.2s">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/>
   </rect>
 
   <g class="ab-card" style="animation-delay:1.2s"><g transform="translate(836 70)">
-    <rect width="324" height="88" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".28"/>
-    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#c77b9b"/>
-    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#c77b9b">PRIMARY MOBILE</text>
-    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#f8f0f3">Flutter / Dart</text>
-    <text class="ab-sans" x="22" y="78" font-size="12" fill="#b6a3ac">2 apps live on Google Play</text>
+    <rect width="324" height="88" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".28"/>
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#438B6B"/>
+    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#438B6B">PRIMARY MOBILE</text>
+    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#F3F6F1">Flutter / Dart</text>
+    <text class="ab-sans" x="22" y="78" font-size="12" fill="#AABDB2">2 apps live on Google Play</text>
   </g></g>
   <g class="ab-card" style="animation-delay:1.7s"><g transform="translate(836 174)">
-    <rect width="324" height="88" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".28"/>
-    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#c77b9b"/>
-    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#c77b9b">WHERE AI LIVES</text>
-    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#f8f0f3">Python</text>
-    <text class="ab-sans" x="22" y="78" font-size="12" fill="#b6a3ac">Vision Â· PyTorch Â· NumPy from scratch</text>
+    <rect width="324" height="88" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".28"/>
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#438B6B"/>
+    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#438B6B">WHERE AI LIVES</text>
+    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#F3F6F1">Python</text>
+    <text class="ab-sans" x="22" y="78" font-size="12" fill="#AABDB2">Vision · PyTorch · NumPy from scratch</text>
   </g></g>
   <g class="ab-card" style="animation-delay:2.2s"><g transform="translate(836 278)">
-    <rect width="324" height="88" rx="14" fill="#190b12" stroke="#c77b9b" stroke-opacity=".28"/>
-    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#c77b9b"/>
-    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#c77b9b">PRODUCT FOCUS</text>
-    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#f8f0f3">UI/UX &amp; Systems</text>
-    <text class="ab-sans" x="22" y="78" font-size="12" fill="#b6a3ac">Interaction design Â· full-stack deployment</text>
+    <rect width="324" height="88" rx="14" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".28"/>
+    <rect x="0" y="0" width="3" height="88" rx="1.5" fill="#438B6B"/>
+    <text class="ab-mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#438B6B">PRODUCT FOCUS</text>
+    <text class="ab-serif" x="22" y="58" font-size="28" font-weight="300" fill="#F3F6F1">UI/UX &amp; Systems</text>
+    <text class="ab-sans" x="22" y="78" font-size="12" fill="#AABDB2">Interaction design · full-stack deployment</text>
   </g></g>
 </svg>
 

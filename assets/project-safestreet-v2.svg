@@ -2,20 +2,20 @@
   <title id="p4-t">SafeStreet: Road damage detection and infrastructure safety using computer vision.</title>
   <defs>
     <linearGradient id="p4-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#190b12"/><stop offset="1" stop-color="#10070c"/>
+      <stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/>
     </linearGradient>
     <radialGradient id="p4-glow" cx="82%" cy="30%" r="55%">
-      <stop offset="0" stop-color="#701a3d" stop-opacity=".7"/><stop offset="1" stop-color="#10070c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1F5A45" stop-opacity=".7"/><stop offset="1" stop-color="#08110C" stop-opacity="0"/>
     </radialGradient>
     <pattern id="p4-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#c77b9b" stroke-opacity=".07"/>
+      <path d="M28 0H0V28" fill="none" stroke="#438B6B" stroke-opacity=".07"/>
     </pattern>
     <filter id="p4-glowf" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="p4-clip"><rect width="1200" height="370" rx="18"/></clipPath>
     <linearGradient id="p4-trace" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8f0f3"/><stop offset=".45" stop-color="#e5b5c7"/><stop offset="1" stop-color="#c77b9b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F3F6F1"/><stop offset=".45" stop-color="#A7D8BD"/><stop offset="1" stop-color="#438B6B" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
@@ -39,43 +39,43 @@
     <rect x="720" width="480" height="370" fill="url(#p4-grid)"/>
     <rect width="1200" height="370" fill="url(#p4-glow)"/>
     <g class="p4-in p4-d1">
-      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#c77b9b">04 Â· COMPUTER VISION Â· DEEP LEARNING Â· RESILIENCE</text>
-      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#f8f0f3">SafeStreet</text>
-      <text class="p4-sans" x="56" y="166" font-size="17" fill="#b6a3ac">Road damage detection and surface hazard classification using deep computer vision.</text>
-      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#e5b5c7"><tspan fill="#c77b9b">BUILT â€º</tspan> Custom CNN architecture, OpenCV preprocessing, bounding box hazard tagging</text>
-      <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#c77b9b" stroke-opacity=".3"/>
-      <g transform="translate(56 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#f8f0f3">CNN MODEL</text><text class="p4-sans" y="24" font-size="12.5" fill="#b6a3ac">multiclass defect detection</text></g>
-      <g transform="translate(261 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#f8f0f3">OPENCV</text><text class="p4-sans" y="24" font-size="12.5" fill="#b6a3ac">real-time road frame analysis</text></g>
-      <g transform="translate(466 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#f8f0f3">HAZARD MAP</text><text class="p4-sans" y="24" font-size="12.5" fill="#b6a3ac">severity indexing &amp; coordinates</text></g>
-      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p4-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">OpenCV</text></g>
-      <g class="p4-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="60" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p4-mono" x="164" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Python</text></g>
-      <g class="p4-chip" style="animation-delay:1.24s"><rect x="202" y="314" width="55" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p4-mono" x="229" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">CNN</text></g>
-      <g class="p4-chip" style="animation-delay:1.36s"><rect x="265" y="314" width="85" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p4-mono" x="307" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Deep Learning</text></g>
-      <g class="p4-chip" style="animation-delay:1.48s"><rect x="358" y="314" width="135" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p4-mono" x="425" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Smart Infrastructure</text></g>
+      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#438B6B">04 · COMPUTER VISION · DEEP LEARNING · RESILIENCE</text>
+      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F3F6F1">SafeStreet</text>
+      <text class="p4-sans" x="56" y="166" font-size="17" fill="#AABDB2">Road damage detection and surface hazard classification using deep computer vision.</text>
+      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#A7D8BD"><tspan fill="#438B6B">BUILT ›</tspan> Custom CNN architecture, OpenCV preprocessing, bounding box hazard tagging</text>
+      <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#438B6B" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">CNN MODEL</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">multiclass defect detection</text></g>
+      <g transform="translate(261 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">OPENCV</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">real-time road frame analysis</text></g>
+      <g transform="translate(466 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">HAZARD MAP</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">severity indexing &amp; coordinates</text></g>
+      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">OpenCV</text></g>
+      <g class="p4-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="60" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="164" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Python</text></g>
+      <g class="p4-chip" style="animation-delay:1.24s"><rect x="202" y="314" width="55" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="229" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">CNN</text></g>
+      <g class="p4-chip" style="animation-delay:1.36s"><rect x="265" y="314" width="85" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="307" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Deep Learning</text></g>
+      <g class="p4-chip" style="animation-delay:1.48s"><rect x="358" y="314" width="135" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="425" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Smart Infrastructure</text></g>
     </g>
     <g class="p4-in p4-d2"><g transform="translate(0 35)">
       <g transform="translate(860 30)">
         <!-- CV Camera inspection viewport -->
-        <rect width="220" height="150" rx="12" fill="#10070c" stroke="#c77b9b" stroke-opacity=".35"/>
-        <line x1="20" y1="20" x2="40" y2="20" stroke="#c77b9b" stroke-width="2"/>
-        <line x1="20" y1="20" x2="20" y2="40" stroke="#c77b9b" stroke-width="2"/>
-        <line x1="200" y1="20" x2="180" y2="20" stroke="#c77b9b" stroke-width="2"/>
-        <line x1="200" y1="20" x2="200" y2="40" stroke="#c77b9b" stroke-width="2"/>
+        <rect width="220" height="150" rx="12" fill="#08110C" stroke="#438B6B" stroke-opacity=".35"/>
+        <line x1="20" y1="20" x2="40" y2="20" stroke="#438B6B" stroke-width="2"/>
+        <line x1="20" y1="20" x2="20" y2="40" stroke="#438B6B" stroke-width="2"/>
+        <line x1="200" y1="20" x2="180" y2="20" stroke="#438B6B" stroke-width="2"/>
+        <line x1="200" y1="20" x2="200" y2="40" stroke="#438B6B" stroke-width="2"/>
         
         <!-- Detected defect bounding box -->
-        <rect x="50" y="45" width="110" height="70" rx="4" fill="none" stroke="#34d399" stroke-width="1.8" stroke-dasharray="3 3"/>
-        <rect x="50" y="30" width="84" height="16" rx="3" fill="#701a3d"/>
-        <text class="p4-mono" x="54" y="42" font-size="9" fill="#f8f0f3">POTHOLE 94.2%</text>
+        <rect x="50" y="45" width="110" height="70" rx="4" fill="none" stroke="#A7D8BD" stroke-width="1.8" stroke-dasharray="3 3"/>
+        <rect x="50" y="30" width="84" height="16" rx="3" fill="#1F5A45"/>
+        <text class="p4-mono" x="54" y="42" font-size="9" fill="#F3F6F1">POTHOLE 94.2%</text>
 
         <!-- Live inspection telemetry -->
         <g transform="translate(10 170)">
-          <rect width="200" height="46" rx="8" fill="#27101c" stroke="#c77b9b" stroke-opacity=".2"/>
-          <text class="p4-mono" x="12" y="20" font-size="9.5" fill="#c77b9b">LAT 17.3850Â° N Â· LON 78.4867Â° E</text>
-          <text class="p4-mono" x="12" y="36" font-size="10" fill="#f8f0f3">Severity: High Â· Immediate repair</text>
+          <rect width="200" height="46" rx="8" fill="#163326" stroke="#438B6B" stroke-opacity=".2"/>
+          <text class="p4-mono" x="12" y="20" font-size="9.5" fill="#438B6B">LAT 17.3850° N · LON 78.4867° E</text>
+          <text class="p4-mono" x="12" y="36" font-size="10" fill="#F3F6F1">Severity: High · Immediate repair</text>
         </g>
       </g>
     </g></g>
-    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#c77b9b" stroke-opacity=".2"/>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#438B6B" stroke-opacity=".2"/>
     <rect class="p4-trace" style="animation-delay:0.0s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p4-trace)" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>

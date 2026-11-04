@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Design tokens — "Burgundy / Maroon / Wine"
+   Design tokens — "Forest Green / Jade / Sage"
    ========================================================================== */
 
 @property --angle {
@@ -12,21 +12,21 @@
   color-scheme: dark;
 
   /* Palette */
-  --ink-950: #10070c;
-  --ink-900: #190b12;
-  --ink-850: #200d17;
-  --ink-800: #27101c;
-  --wine-700: #451126;
-  --wine-600: #701a3d;
-  --rose-400: #9e4467;
-  --rose-300: #c77b9b;
-  --rose-200: #e5b5c7;
-  --rose-100: #f8eef1;
-  --ivory: #f8f0f3;
-  --muted: #b6a3ac;
-  --faint: #6e5c64;
-  --line: rgba(199, 123, 155, 0.16);
-  --line-strong: rgba(199, 123, 155, 0.32);
+  --ink-950: #08110C;
+  --ink-900: #0D1B14;
+  --ink-850: #11251B;
+  --ink-800: #163326;
+  --forest-700: #173E30;
+  --forest-600: #1F5A45;
+  --jade-500: #287A60;
+  --jade-400: #438B6B;
+  --sage-300: #A7D8BD;
+  --sage-100: #E6F2EA;
+  --ivory: #F3F6F1;
+  --muted: #AABDB2;
+  --faint: #65786C;
+  --line: rgba(67, 139, 107, 0.16);
+  --line-strong: rgba(67, 139, 107, 0.32);
   --brass: #c9a27a;
 
   /* Semantic */
@@ -35,16 +35,16 @@
   --surface: var(--ink-800);
   --text: var(--ivory);
   --text-muted: var(--muted);
-  --accent: var(--rose-300);
-  --accent-strong: var(--wine-600);
-  --focus: var(--rose-200);
+  --accent: var(--jade-400);
+  --accent-strong: var(--forest-600);
+  --focus: var(--sage-300);
 
-  /* Heatmap scale (near-black → deep wine → crimson → rose) */
-  --heat-0: #190b12;
-  --heat-1: #451126;
-  --heat-2: #701a3d;
-  --heat-3: #9e4467;
-  --heat-4: #c77b9b;
+  /* Heatmap scale (near-black to forest to jade to sage) */
+  --heat-0: #0D1B14;
+  --heat-1: #173E30;
+  --heat-2: #1F5A45;
+  --heat-3: #74B894;
+  --heat-4: #A7D8BD;
 
   /* Typography */
   --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
@@ -78,8 +78,8 @@
   --radius-s: 6px;
   --radius-m: 14px;
   --radius-l: 24px;
-  --shadow-1: 0 1px 0 rgba(248, 240, 243, 0.04) inset, 0 18px 40px -24px rgba(0, 0, 0, 0.8);
-  --shadow-2: 0 1px 0 rgba(248, 240, 243, 0.06) inset, 0 40px 80px -40px rgba(112, 26, 61, 0.55);
+  --shadow-1: 0 1px 0 rgba(243, 246, 241, 0.04) inset, 0 18px 40px -24px rgba(0, 0, 0, 0.8);
+  --shadow-2: 0 1px 0 rgba(243, 246, 241, 0.06) inset, 0 40px 80px -40px rgba(31, 90, 69, 0.55);
 
   /* Motion */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);

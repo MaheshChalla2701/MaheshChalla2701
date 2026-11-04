@@ -1,11 +1,11 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-labelledby="t-ce">
-  <title id="t-ce">06 Highlights â€” Verified milestones &amp; production deployments.</title>
+  <title id="t-ce">06 Highlights — Verified milestones &amp; production deployments.</title>
   <style>
     .st-serif { font-family: "Cinzel", Georgia, serif; }
     .st-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   </style>
-  <text class="st-mono" x="24" y="28" font-size="12" letter-spacing="2.8" fill="#c77b9b">06 Â· HIGHLIGHTS</text>
-  <text class="st-serif" x="24" y="68" font-size="34" font-weight="300" fill="#f8f0f3">Verified milestones, in production.</text>
-  <line x1="620" y1="58" x2="1176" y2="58" stroke="#c77b9b" stroke-opacity=".2"/>
+  <text class="st-mono" x="24" y="28" font-size="12" letter-spacing="2.8" fill="#438B6B">06 · HIGHLIGHTS</text>
+  <text class="st-serif" x="24" y="68" font-size="34" font-weight="300" fill="#F3F6F1">Verified milestones, in production.</text>
+  <line x1="620" y1="58" x2="1176" y2="58" stroke="#438B6B" stroke-opacity=".2"/>
 </svg>
 

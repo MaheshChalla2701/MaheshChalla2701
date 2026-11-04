@@ -1,13 +1,13 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="03 Selected work: Products that ship.">
   <defs>
     <linearGradient id="tw-line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
-      <stop offset="0" stop-color="#10B981"/><stop offset=".6" stop-color="#064E3B"/><stop offset="1" stop-color="#064E3B" stop-opacity="0"/>
+      <stop offset="0" stop-color="#438B6B"/><stop offset=".6" stop-color="#173E30"/><stop offset="1" stop-color="#173E30" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="tw-sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
-      <stop offset="0" stop-color="#34D399"/><stop offset=".5" stop-color="#F8F0F3"/><stop offset="1" stop-color="#34D399"/>
+      <stop offset="0" stop-color="#A7D8BD"/><stop offset=".5" stop-color="#F3F6F1"/><stop offset="1" stop-color="#A7D8BD"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
     </linearGradient>
-    <radialGradient id="tw-pulse"><stop offset="0" stop-color="#F8F0F3"/><stop offset=".5" stop-color="#34D399" stop-opacity=".6"/><stop offset="1" stop-color="#10B981" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tw-pulse"><stop offset="0" stop-color="#F3F6F1"/><stop offset=".5" stop-color="#A7D8BD" stop-opacity=".6"/><stop offset="1" stop-color="#438B6B" stop-opacity="0"/></radialGradient>
   </defs>
   <style>
     .tw-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
@@ -21,13 +21,13 @@
     @media (prefers-reduced-motion: reduce) { .tw-in { animation: none; } .tw-draw { animation: none; stroke-dashoffset: 0; } }
   </style>
   <g class="tw-in">
-    <text class="tw-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#10B981"><tspan fill="#34D399">03</tspan>   SELECTED WORK</text>
+    <text class="tw-mono" x="40" y="34" font-size="12" letter-spacing="3" fill="#438B6B"><tspan fill="#A7D8BD">03</tspan>   SELECTED WORK</text>
   </g>
   <g class="tw-in tw-d2">
-    <text class="tw-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#F8F0F3">Products that <tspan font-style="italic" fill="url(#tw-sheen)">ship.</tspan></text>
+    <text class="tw-serif" x="38" y="84" font-size="44" font-weight="300" letter-spacing="-1" fill="#F3F6F1">Products that <tspan font-style="italic" fill="url(#tw-sheen)">ship.</tspan></text>
   </g>
   <g class="tw-in tw-d3">
-    <text class="tw-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#6EE7B7">SIX SYSTEMS Â· REAL-WORLD REACH</text>
+    <text class="tw-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#A7D8BD">SIX SYSTEMS · REAL-WORLD REACH</text>
   </g>
   <path class="tw-draw" d="M40 106 H1160" stroke="url(#tw-line)" stroke-width="1"/>
   <circle cx="40" cy="106" r="7" fill="url(#tw-pulse)" opacity="0">

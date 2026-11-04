@@ -19,7 +19,7 @@
   .intro__mark { width: 84px; height: 84px; }
   .intro__mark circle {
     fill: none;
-    stroke: var(--rose-300);
+    stroke: var(--jade-400);
     stroke-width: 1;
     stroke-dasharray: 340;
     stroke-dashoffset: 340;
@@ -51,8 +51,8 @@
     height: 100%;
     transform-origin: 0 50%;
     transform: scaleX(var(--progress, 0));
-    background: linear-gradient(90deg, var(--wine-700), var(--rose-300));
-    box-shadow: 0 0 12px rgba(216, 140, 168, 0.6);
+    background: linear-gradient(90deg, var(--forest-700), var(--jade-400));
+    box-shadow: 0 0 12px rgba(116, 184, 148, 0.6);
   }
   /* Native scroll-driven version; JS only fills --progress when unsupported */
   @supports (animation-timeline: scroll()) {
@@ -74,12 +74,12 @@
     border-bottom: 1px solid transparent;
   }
   .nav.is-scrolled {
-    background: rgba(16, 7, 12, 0.82);
+    background: rgba(8, 17, 12, 0.82);
     border-bottom-color: var(--line);
   }
   @supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
     .nav.is-scrolled {
-      background: rgba(16, 7, 12, 0.6);
+      background: rgba(8, 17, 12, 0.6);
       -webkit-backdrop-filter: blur(16px) saturate(150%);
       backdrop-filter: blur(16px) saturate(150%);
     }
@@ -96,7 +96,7 @@
   .nav__mono { width: 36px; height: 36px; }
   .nav__mono rect { fill: var(--ink-800); stroke: var(--line-strong); transition: fill var(--dur-2); }
   .nav__mono text { font-family: var(--font-display); font-style: italic; font-size: 17px; fill: var(--ivory); }
-  .nav__brand:hover .nav__mono rect { fill: var(--wine-700); }
+  .nav__brand:hover .nav__mono rect { fill: var(--forest-700); }
   .nav__name { font-weight: 500; letter-spacing: -0.01em; font-size: var(--step--1); }
 
   .nav__links ul { display: flex; gap: 0.25rem; list-style: none; padding: 0; }
@@ -117,7 +117,7 @@
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: var(--rose-300);
+    background: var(--jade-400);
     transform: translateX(-50%) scale(0);
     transition: transform var(--dur-2) var(--ease-spring);
   }
@@ -190,7 +190,7 @@
     padding: var(--space-xl);
     border-radius: var(--radius-l);
     background:
-      radial-gradient(80% 120% at 100% 0%, rgba(110, 23, 56, 0.28), transparent 60%),
+      radial-gradient(80% 120% at 100% 0%, rgba(23, 62, 48, 0.28), transparent 60%),
       linear-gradient(180deg, var(--ink-900), var(--ink-950));
     border: 1px solid var(--line);
     box-shadow: var(--shadow-2);
@@ -209,7 +209,7 @@
     padding: 4px;
     border-radius: 999px;
     border: 1px solid var(--line);
-    background: rgba(16, 7, 12, 0.6);
+    background: rgba(8, 17, 12, 0.6);
   }
   .heatmap__ranges button {
     padding: 0.4rem 0.9rem;
@@ -219,9 +219,9 @@
     transition: background-color var(--dur-2), color var(--dur-2);
   }
   .heatmap__ranges button:hover { color: var(--ivory); }
-  .heatmap__ranges button[aria-pressed="true"] { background: var(--wine-700); color: var(--ivory); }
+  .heatmap__ranges button[aria-pressed="true"] { background: var(--forest-700); color: var(--ivory); }
   .heatmap__source { max-width: 42ch; text-transform: none; letter-spacing: 0.02em; }
-  .heatmap__source a { color: var(--rose-200); }
+  .heatmap__source a { color: var(--sage-300); }
   .heatmap__source .badge {
     display: inline-block;
     margin-right: 0.5em;
@@ -230,8 +230,8 @@
     font-size: 0.9em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    background: rgba(216, 140, 168, 0.12);
-    color: var(--rose-200);
+    background: rgba(116, 184, 148, 0.12);
+    color: var(--sage-300);
   }
   .heatmap__source .badge--demo { background: rgba(201, 162, 122, 0.18); color: var(--brass); }
 
@@ -262,7 +262,7 @@
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scrollbar-width: thin;
-    scrollbar-color: var(--wine-700) transparent;
+    scrollbar-color: var(--forest-700) transparent;
     padding-bottom: 0.5rem;
     /* soft fade at the edges when scrollable */
     mask-image: linear-gradient(90deg, transparent, #000 12px, #000 calc(100% - 12px), transparent);

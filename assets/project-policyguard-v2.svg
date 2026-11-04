@@ -2,20 +2,20 @@
   <title id="p1-t">FIZI: AI-powered fitness ecosystem published on Google Play.</title>
   <defs>
     <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#190b12"/><stop offset="1" stop-color="#10070c"/>
+      <stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/>
     </linearGradient>
     <radialGradient id="p1-glow" cx="82%" cy="30%" r="55%">
-      <stop offset="0" stop-color="#701a3d" stop-opacity=".7"/><stop offset="1" stop-color="#27101c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1F5A45" stop-opacity=".7"/><stop offset="1" stop-color="#163326" stop-opacity="0"/>
     </radialGradient>
     <pattern id="p1-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#c77b9b" stroke-opacity=".07"/>
+      <path d="M28 0H0V28" fill="none" stroke="#438B6B" stroke-opacity=".07"/>
     </pattern>
     <filter id="p1-glowf" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="p1-clip"><rect width="1200" height="370" rx="18"/></clipPath>
     <linearGradient id="p1-trace" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8f0f3"/><stop offset=".45" stop-color="#e5b5c7"/><stop offset="1" stop-color="#c77b9b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F3F6F1"/><stop offset=".45" stop-color="#A7D8BD"/><stop offset="1" stop-color="#438B6B" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
@@ -39,39 +39,39 @@
     <rect x="720" width="480" height="370" fill="url(#p1-grid)"/>
     <rect width="1200" height="370" fill="url(#p1-glow)"/>
     <g class="p1-in p1-d1">
-      <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#c77b9b">01 Â· AI Â· FLUTTER Â· GOOGLE PLAY Â· SHIPPED</text>
-      <text class="p1-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#f8f0f3">FIZI</text>
-      <text class="p1-sans" x="56" y="166" font-size="17" fill="#b6a3ac">Personalized AI fitness ecosystem with adaptive workout plans and real-time guidance.</text>
-      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#e5b5c7"><tspan fill="#c77b9b">BUILT â€º</tspan> Flutter mobile client, Firebase real-time data sync, dynamic nutrition intelligence</text>
-      <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#c77b9b" stroke-opacity=".3"/>
-      <g transform="translate(56 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#f8f0f3">PLAY STORE</text><text class="p1-sans" y="24" font-size="12.5" fill="#b6a3ac">production app on Android</text></g>
-      <g transform="translate(261 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#f8f0f3">FIREBASE</text><text class="p1-sans" y="24" font-size="12.5" fill="#b6a3ac">realtime cloud data &amp; auth</text></g>
-      <g transform="translate(466 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#f8f0f3">AI PLANS</text><text class="p1-sans" y="24" font-size="12.5" fill="#b6a3ac">adaptive exercise algorithms</text></g>
-      <g class="p1-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p1-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Flutter</text></g>
-      <g class="p1-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="55" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p1-mono" x="161" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Dart</text></g>
-      <g class="p1-chip" style="animation-delay:1.24s"><rect x="197" y="314" width="75" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p1-mono" x="234" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Firebase</text></g>
-      <g class="p1-chip" style="animation-delay:1.36s"><rect x="280" y="314" width="75" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p1-mono" x="317" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Node.js</text></g>
-      <g class="p1-chip" style="animation-delay:1.48s"><rect x="363" y="314" width="135" height="26" rx="13" fill="#27101c" stroke="#c77b9b" stroke-opacity=".35"/><text class="p1-mono" x="430" y="331" text-anchor="middle" font-size="11.5" fill="#e5b5c7">Google Play Live</text></g>
+      <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#438B6B">01 · AI · FLUTTER · GOOGLE PLAY · SHIPPED</text>
+      <text class="p1-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F3F6F1">FIZI</text>
+      <text class="p1-sans" x="56" y="166" font-size="17" fill="#AABDB2">Personalized AI fitness ecosystem with adaptive workout plans and real-time guidance.</text>
+      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#A7D8BD"><tspan fill="#438B6B">BUILT ›</tspan> Flutter mobile client, Firebase real-time data sync, dynamic nutrition intelligence</text>
+      <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#438B6B" stroke-opacity=".3"/>
+      <g transform="translate(56 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#F3F6F1">PLAY STORE</text><text class="p1-sans" y="24" font-size="12.5" fill="#AABDB2">production app on Android</text></g>
+      <g transform="translate(261 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#F3F6F1">FIREBASE</text><text class="p1-sans" y="24" font-size="12.5" fill="#AABDB2">realtime cloud data &amp; auth</text></g>
+      <g transform="translate(466 266)"><text class="p1-serif" font-size="34" font-weight="300" fill="#F3F6F1">AI PLANS</text><text class="p1-sans" y="24" font-size="12.5" fill="#AABDB2">adaptive exercise algorithms</text></g>
+      <g class="p1-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p1-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Flutter</text></g>
+      <g class="p1-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="55" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p1-mono" x="161" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Dart</text></g>
+      <g class="p1-chip" style="animation-delay:1.24s"><rect x="197" y="314" width="75" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p1-mono" x="234" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Firebase</text></g>
+      <g class="p1-chip" style="animation-delay:1.36s"><rect x="280" y="314" width="75" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p1-mono" x="317" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Node.js</text></g>
+      <g class="p1-chip" style="animation-delay:1.48s"><rect x="363" y="314" width="135" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p1-mono" x="430" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Google Play Live</text></g>
     </g>
     <g class="p1-in p1-d2"><g transform="translate(0 35)">
       <g transform="translate(870 30)">
-        <rect x="0" y="0" width="180" height="240" rx="20" fill="#190b12" stroke="#c77b9b" stroke-opacity=".4" stroke-width="2"/>
-        <rect x="12" y="14" width="156" height="40" rx="10" fill="#27101c" stroke="#c77b9b" stroke-opacity=".2"/>
-        <text class="p1-mono" x="24" y="32" font-size="10" fill="#c77b9b">TODAY'S TARGET</text>
-        <text class="p1-serif" x="24" y="48" font-size="14" fill="#f8f0f3">HIIT + Core Burn</text>
+        <rect x="0" y="0" width="180" height="240" rx="20" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".4" stroke-width="2"/>
+        <rect x="12" y="14" width="156" height="40" rx="10" fill="#163326" stroke="#438B6B" stroke-opacity=".2"/>
+        <text class="p1-mono" x="24" y="32" font-size="10" fill="#438B6B">TODAY'S TARGET</text>
+        <text class="p1-serif" x="24" y="48" font-size="14" fill="#F3F6F1">HIIT + Core Burn</text>
         
-        <circle cx="90" cy="120" r="42" fill="none" stroke="#27101c" stroke-width="8"/>
-        <circle cx="90" cy="120" r="42" fill="none" stroke="#c77b9b" stroke-width="8" stroke-dasharray="264" stroke-dashoffset="66">
+        <circle cx="90" cy="120" r="42" fill="none" stroke="#163326" stroke-width="8"/>
+        <circle cx="90" cy="120" r="42" fill="none" stroke="#438B6B" stroke-width="8" stroke-dasharray="264" stroke-dashoffset="66">
           <animate attributeName="stroke-dashoffset" values="264;66" dur="2s" fill="freeze"/>
         </circle>
-        <text class="p1-serif" x="90" y="125" text-anchor="middle" font-size="18" fill="#f8f0f3">75%</text>
+        <text class="p1-serif" x="90" y="125" text-anchor="middle" font-size="18" fill="#F3F6F1">75%</text>
         
-        <rect x="12" y="180" width="156" height="44" rx="10" fill="#27101c" stroke="#c77b9b" stroke-opacity=".2"/>
-        <text class="p1-mono" x="24" y="198" font-size="9" fill="#e5b5c7">AI COACH TIP</text>
-        <text class="p1-sans" x="24" y="214" font-size="11" fill="#f8f0f3">Hydration optimal Â· +15 min</text>
+        <rect x="12" y="180" width="156" height="44" rx="10" fill="#163326" stroke="#438B6B" stroke-opacity=".2"/>
+        <text class="p1-mono" x="24" y="198" font-size="9" fill="#A7D8BD">AI COACH TIP</text>
+        <text class="p1-sans" x="24" y="214" font-size="11" fill="#F3F6F1">Hydration optimal · +15 min</text>
       </g>
     </g></g>
-    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#c77b9b" stroke-opacity=".2"/>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#438B6B" stroke-opacity=".2"/>
     <rect class="p1-trace" style="animation-delay:0.0s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p1-trace)" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>
