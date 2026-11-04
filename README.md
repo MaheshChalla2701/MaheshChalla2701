@@ -7,18 +7,6 @@
 
 <img src="assets/mahesh-title-work.svg" width="100%" alt="Selected work">
 
-<a href="https://github.com/MaheshChalla2701/Operation-Evolve"><img src="assets/mahesh-project-evolve.svg" width="100%" alt="Operation Evolve: An ecosystem for evolving datasets and sparse Mixture-of-Experts models."></a>
-
-Combines hierarchical expert routing, replay buffers and Learning without Forgetting. Sequential training uses evaluation checkpoints and rollback to guard model updates.
-
-[Repository ↗](https://github.com/MaheshChalla2701/Operation-Evolve)
-
-<a href="https://github.com/MaheshChalla2701/collaborative-ai"><img src="assets/mahesh-project-council.svg" width="100%" alt="Collaborative AI: Independent answers. Anonymous peer review. A considered final synthesis."></a>
-
-Language models answer in parallel, rank anonymized responses and pass the results to a chairman model. Includes streamed responses, Firebase authentication, persistent conversations and memory.
-
-[Repository ↗](https://github.com/MaheshChalla2701/collaborative-ai)
-
 <a href="https://github.com/MaheshChalla2701/FIZI"><img src="assets/mahesh-project-fizi.svg" width="100%" alt="FIZI: Camera-based exercise analysis inside a complete fitness experience."></a>
 
 Python and MediaPipe analyze captured frames for end-of-set form scoring and rep counting. Workout planning, nutrition, progress analytics and an AI assistant connect the experience.
@@ -31,17 +19,17 @@ Real-time group expenses, flexible splits, receipt OCR, debt simplification and 
 
 [Repository ↗](https://github.com/MaheshChalla2701/SplitPlan) · [Google Play ↗](https://play.google.com/store/apps/details?id=com.splitplan.splitplan)
 
-<a href="https://github.com/MaheshChalla2701/prescription"><img src="assets/mahesh-project-prescription.svg" width="100%" alt="AI Prescription OCR: Turn handwritten prescriptions into structured medicine information."></a>
+<a href="https://github.com/MaheshChalla2701/Operation-Evolve"><img src="assets/mahesh-project-evolve.svg" width="100%" alt="Operation Evolve: An ecosystem for evolving datasets and sparse Mixture-of-Experts models."></a>
 
-Google Cloud Vision OCR, spatial line grouping and RapidFuzz matching extract medicine names, dosage, frequency and duration from images and PDFs.
+Combines hierarchical expert routing, replay buffers and Learning without Forgetting. Sequential training uses evaluation checkpoints and rollback to guard model updates.
 
-[Repository ↗](https://github.com/MaheshChalla2701/prescription)
+[Repository ↗](https://github.com/MaheshChalla2701/Operation-Evolve)
 
-<a href="https://github.com/MaheshChalla2701/medicine-aggregator"><img src="assets/mahesh-project-medicine.svg" width="100%" alt="Medicine Aggregator: One search across configured online pharmacy providers."></a>
+<a href="https://github.com/MaheshChalla2701/collaborative-ai"><img src="assets/mahesh-project-council.svg" width="100%" alt="Collaborative AI: Independent answers. Anonymous peer review. A considered final synthesis."></a>
 
-Parallel API requests, normalized responses and ranked availability in a single report. Provider failures are isolated; supported pharmacies depend on the configured integrations.
+Language models answer in parallel, rank anonymized responses and pass the results to a chairman model. Includes streamed responses, Firebase authentication, persistent conversations and memory.
 
-[Repository ↗](https://github.com/MaheshChalla2701/medicine-aggregator)
+[Repository ↗](https://github.com/MaheshChalla2701/collaborative-ai)
 
 <img src="assets/mahesh-title-toolkit.svg" width="100%" alt="Toolkit">
 <img src="assets/mahesh-toolkit.svg" width="100%" alt="Python, Dart, Flutter, React Native, FastAPI, MediaPipe, CNN, ANN and Transformers">

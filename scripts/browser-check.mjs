@@ -18,7 +18,7 @@ for(const width of [1440,768,390]){
  await page.waitForFunction(()=>document.querySelectorAll('.cell').length>300);
  await page.waitForFunction(()=>Number(getComputedStyle(document.querySelector('.intro')).opacity)<0.01);
  await page.waitForTimeout(800);
- assert.equal(await page.locator('.case').count(),6);
+ assert.equal(await page.locator('.case').count(),4);
  assert.equal(await page.locator('.portrait img').evaluate(el=>el.naturalWidth>0),true);
  const overflow=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,width:innerWidth}));
  assert(overflow.scroll<=overflow.width+1,`Overflow at ${width}: ${JSON.stringify(overflow)}`);
@@ -33,12 +33,18 @@ for(const width of [1440,768,390]){
  await page.locator('[data-motion]').click();
  await page.locator('[data-range="90"]').click();assert.equal(await page.locator('[data-range="90"]').getAttribute('aria-pressed'),'true');
  await page.locator('.cell').last().focus();await page.keyboard.press('ArrowLeft');assert.equal(await page.locator('.cell[aria-selected="true"]').count(),1);
- await page.locator('[data-copy]').click();await page.waitForFunction(()=>document.querySelector('[data-copy-status]').textContent.length>0);assert.match(await page.locator('[data-copy-status]').textContent(),/Email address copied/);
+ await page.locator('[data-copy]').click();await page.waitForFunction(()=>document.querySelector('[data-copy-status]').textContent.trim().length>0);assert.match(await page.locator('[data-copy-status]').textContent(),/Email address copied/);
  if(width<961){await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(800);await page.locator('[data-menu-toggle]').click();assert.equal(await page.locator('[data-menu-toggle]').getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await page.locator('[data-menu-toggle]').getAttribute('aria-expanded'),'false')}
+ await page.goto('http://localhost:4175/resume.html', {waitUntil:'networkidle'});
+ for (const project of ['FIZI', 'SplitPlan', 'Operation Evolve', 'Collaborative AI']) assert((await page.locator('body').innerText()).includes(project));
+ assert(await page.locator('a[href="index.html"]').isVisible());
+ assert(await page.locator('.download-btn').isVisible());
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Resume overflow at ${width}`);
+ await page.screenshot({path:`qa/resume-${width}.png`,fullPage:true});
  assert.deepEqual(errors,[]);assert.deepEqual(bad,[]);
- report.push({width,projects:6,overflow:false,errors,failedLocalRequests:bad,details:true,skills:true,motionToggle:true,heatmapRange:true});await context.close();
+ report.push({width,projects:4,overflow:false,errors,failedLocalRequests:bad,details:true,skills:true,motionToggle:true,heatmapRange:true});await context.close();
 }
 const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});const page=await context.newPage();await page.goto('http://localhost:4175',{waitUntil:'networkidle'});const animations=await page.locator('.system-node i').first().evaluate(el=>getComputedStyle(el).animationName);assert.equal(animations,'none');report.push({reducedMotion:true});await context.close();
-const offline=await browser.newContext();const offlinePage=await offline.newPage();await offlinePage.route('**/data/contributions.json',route=>route.fulfill({status:503,body:'Unavailable'}));await offlinePage.goto('http://localhost:4175',{waitUntil:'networkidle'});assert.match(await offlinePage.locator('[data-heatmap-source]').innerText(),/temporarily unavailable/);assert.equal(await offlinePage.locator('.cell').count(),0);await offline.close();report.push({missingSnapshotHandled:true});
+const offline=await browser.newContext();const offlinePage=await offline.newPage();await offlinePage.route('**/data/contributions.json',route=>route.fulfill({status:503,body:'Unavailable'}));await offlinePage.goto('http://localhost:4175',{waitUntil:'networkidle'});await offlinePage.waitForFunction(()=>document.querySelector('[data-heatmap-source]').textContent.includes('temporarily unavailable'));assert.match(await offlinePage.locator('[data-heatmap-source]').innerText(),/temporarily unavailable/);assert.equal(await offlinePage.locator('.cell').count(),0);await offline.close();report.push({missingSnapshotHandled:true});
 fs.writeFileSync('qa/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 }finally{await browser.close()}
