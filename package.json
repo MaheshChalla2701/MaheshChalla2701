@@ -1,0 +1,15 @@
+{
+  "name": "mahesh-challa-profile",
+  "version": "1.0.0",
+  "description": "Mahesh Challa profile, animated portfolio and public contribution calendar",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node scripts/build-heatmap-svg.mjs",
+    "contributions": "node scripts/fetch-contributions.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check-profile.mjs"
+  }
+}
