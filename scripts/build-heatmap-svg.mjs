@@ -62,7 +62,7 @@ const pos = (i) => {
   const dow = (i + offset) % 7;
   return { week, dow, x: GRID_X + week * STEP, y: GRID_Y + dow * STEP };
 };
-const label = (d) => `${d.count} contribution${d.count === 1 ? "" : "s"} Â· ${fmt(toDate(d.date))}`;
+const label = (d) => `${d.count} contribution${d.count === 1 ? "" : "s"} · ${fmt(toDate(d.date))}`;
 
 /* ---- Snake ----
  * Slithers through the grid in a serpentine (down one week, up the next),
@@ -111,7 +111,7 @@ if (best > 1) {
   const labelX = Math.min(startPos.x, W - 360);
   streakSvg = `<g class="hm-fade" style="animation-delay:2.6s">
       <path d="M${startPos.x + CELL / 2} ${GRID_Y + 7 * STEP - 2} V ${GRID_Y + 7 * STEP + 10}" stroke="#74B894" stroke-opacity=".6"/>
-      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="10.5" letter-spacing="1.6" fill="#74B894">LONGEST STREAK Â· ${best} DAYS Â· ${fmt(toDate(days[bestStart].date)).toUpperCase()} â€“ ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
+      <text class="hm-mono" x="${labelX}" y="${GRID_Y + 7 * STEP + 24}" font-size="10.5" letter-spacing="1.6" fill="#74B894">LONGEST STREAK · ${best} DAYS · ${fmt(toDate(days[bestStart].date)).toUpperCase()} – ${fmt(toDate(days[bestEnd].date)).toUpperCase()}</text>
     </g>`;
 }
 
@@ -149,7 +149,7 @@ const monthSvg = labels
   .join("");
 
 const stats = [
-  ["CONTRIBUTIONS", total.toLocaleString("en-US"), `${MONTHS[first.getUTCMonth()]} ${first.getUTCFullYear()} â€“ ${MONTHS[last.getUTCMonth()]} ${last.getUTCFullYear()}`],
+  ["CONTRIBUTIONS", total.toLocaleString("en-US"), `${MONTHS[first.getUTCMonth()]} ${first.getUTCFullYear()} – ${MONTHS[last.getUTCMonth()]} ${last.getUTCFullYear()}`],
   ["ACTIVE DAYS", String(active), `of ${days.length} days`],
   ["LONGEST STREAK", String(best), "consecutive days"],
   ["BUSIEST DAY", String(peak.count), fmt(toDate(peak.date))],
@@ -197,7 +197,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="19.5" fill="none" stroke="#438B6B" stroke-opacity=".16"/>
 
   <g class="hm-fade">
-    <text class="hm-mono" x="56" y="68" font-size="11" letter-spacing="2.6" fill="#438B6B">COMMIT LOG Â· REAL GITHUB ACTIVITY</text>
+    <text class="hm-mono" x="56" y="68" font-size="11" letter-spacing="2.6" fill="#438B6B">COMMIT LOG · REAL GITHUB ACTIVITY</text>
     <text class="hm-serif" x="54" y="110" font-size="27" font-weight="300" fill="#F3F6F1">A year of building, <tspan font-style="italic" fill="#A7D8BD">one commit</tspan> at a time.</text>
     ${statsSvg}
   </g>
@@ -220,7 +220,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
   ${streakSvg}
 
   <g class="hm-fade">
-    <text class="hm-mono" x="56" y="382" font-size="10.5" fill="#AABDB2">Source: public GitHub contribution calendar for @${esc(data.login)} Â· snapshot ${fetched} Â· refreshed daily</text>
+    <text class="hm-mono" x="56" y="382" font-size="10.5" fill="#AABDB2">Source: public GitHub contribution calendar for @${esc(data.login)} · snapshot ${fetched} · refreshed daily</text>
     <text class="hm-mono" x="${legendX}" y="382" font-size="10.5" fill="#AABDB2">Less</text>
     ${legend}
     <text class="hm-mono" x="${legendX + 36 + 5 * 18 + 4}" y="382" font-size="10.5" fill="#AABDB2">More</text>
