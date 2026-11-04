@@ -22,7 +22,7 @@ const GAP = 4;
 const STEP = CELL + GAP;
 const GRID_X = 118;
 const GRID_Y = 182;
-const LEVELS = ["#19262b", "#234436", "#36644c", "#629b6f", "#b2e3b4"];
+const LEVELS = ["#1c0c15", "#45122a", "#6e1738", "#a12556", "#e09ab4"];
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const toDate = (iso) => new Date(`${iso}T00:00:00Z`);

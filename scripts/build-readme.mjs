@@ -17,7 +17,7 @@ const xml = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const outputs = new Map();
 const banner = (slug, number, label, subtitle) => {
   const file = `assets/mahesh-title-${slug}.svg`;
-  outputs.set(file, `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100"><rect width="1200" height="100" rx="16" fill="#111b23"/><path d="M44 25V75M44 50H80" stroke="#a6dab6" stroke-width="3"/><text x="108" y="39" fill="#a6dab6" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">${number} / ${xml(label.toUpperCase())}</text><text x="108" y="73" fill="#f4f1e8" font-family="Georgia,serif" font-size="28">${xml(subtitle)}</text></svg>\n`);
+  outputs.set(file, `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100"><rect width="1200" height="100" rx="16" fill="#190b12"/><path d="M44 25V75M44 50H80" stroke="#d88ca8" stroke-width="3"/><text x="108" y="39" fill="#d88ca8" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">${number} / ${xml(label.toUpperCase())}</text><text x="108" y="73" fill="#f6edf0" font-family="Georgia,serif" font-size="28">${xml(subtitle)}</text></svg>\n`);
   return `<img src="${file}" width="100%" alt="${label} — ${xml(subtitle)}">`;
 };
 const portfolio = 'https://maheshchalla2701.github.io/MaheshChalla2701/';
