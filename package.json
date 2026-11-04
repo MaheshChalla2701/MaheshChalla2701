@@ -10,6 +10,7 @@
     "generate": "node scripts/build-heatmap-svg.mjs",
     "contributions": "node scripts/fetch-contributions.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/check-profile.mjs"
+    "check": "node scripts/build-readme.mjs --check && node scripts/check-profile.mjs",
+    "readme": "node scripts/build-readme.mjs"
   }
 }

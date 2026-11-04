@@ -512,7 +512,7 @@
   .work__more a { display: inline-flex; gap: 0.5rem; align-items: center; color: var(--text-muted); }
 
   /* --- Project visuals ---------------------------------------------- */
-  /* PolicyGuard: stacked documents with a scanning highlighter */
+  /* Stacked document illustration with a scanning highlighter */
   .vis-policy {
     position: absolute;
     inset: 0;
@@ -590,7 +590,7 @@
   .vis-pay__label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.16em; fill: var(--faint); }
   .vis-pay__pulse { filter: drop-shadow(0 0 6px #d88ca8); }
 
-  /* StarCloset: five-stage pipeline */
+  /* Five-stage pipeline illustration */
   .vis-star {
     position: absolute;
     inset: 0;
