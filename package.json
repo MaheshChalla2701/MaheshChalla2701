@@ -1,16 +1,14 @@
 {
-  "name": "mahesh-challa-profile",
+  "name": "github-jet-heatmap",
   "version": "1.0.0",
-  "description": "Mahesh Challa profile, animated portfolio and public contribution calendar",
+  "description": "Generates an animated jet-over-contribution-grid SVG from real GitHub contribution data",
   "type": "module",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "generate": "node scripts/build-heatmap-svg.mjs",
+    "generate": "node generate.mjs",
     "contributions": "node scripts/fetch-contributions.mjs",
-    "start": "node scripts/serve.mjs",
-    "check": "node scripts/build-readme.mjs --check && node scripts/check-profile.mjs",
-    "readme": "node scripts/build-readme.mjs"
+    "start": "node scripts/serve.mjs"
   }
 }

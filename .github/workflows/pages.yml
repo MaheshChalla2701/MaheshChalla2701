@@ -5,11 +5,6 @@ on:
     branches: [main]
     paths:
       - "site/**"
-      - "README.md"
-      - "assets/**"
-      - "package.json"
-      - "scripts/build-readme.mjs"
-      - "scripts/check-profile.mjs"
       - "scripts/fetch-contributions.mjs"
       - ".github/workflows/pages.yml"
   schedule:
@@ -35,9 +30,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      - name: Validate profile and README consistency
-        run: npm run check
 
       # Refreshes site/data/contributions.json from the public contribution
       # calendar. If the fetch fails, the committed snapshot is kept.

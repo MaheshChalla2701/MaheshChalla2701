@@ -1,480 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challa Mahesh — Curriculum Vitae</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume — Mahesh Challa</title>
+  <meta name="description" content="Resume of Mahesh Challa — B.E. Computer Science student, AI engineer and product designer. Creator of FIZI, SplitPlan, and SafeStreet.">
+  <meta name="theme-color" content="#07080f">
+  <link rel="canonical" href="https://maheshchalla2701.github.io/MaheshChalla2701/resume.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Geist:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <style>
+    @layer sections {
+      body { padding-block: var(--space-xl) var(--space-3xl); }
+      body::after { display: none; }
+      .bar {
+        display: flex; flex-wrap: wrap; gap: var(--space-s); justify-content: space-between; align-items: center;
+        margin-bottom: var(--space-xl);
+      }
+      .bar__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+      .sheet {
+        padding: clamp(1.25rem, 4vw, 3.5rem);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-l);
+        background: linear-gradient(180deg, var(--ink-900), var(--ink-950));
+        box-shadow: var(--shadow-2);
+      }
+      .r-head { display: grid; gap: 0.6rem; padding-bottom: var(--space-l); border-bottom: 1px solid var(--line-strong); }
+      .r-head h1 { font-family: var(--font-display); font-size: var(--step-4); font-weight: 300; letter-spacing: -0.035em; }
+      .r-head h1 em { color: var(--rose-300); }
+      .r-head .role { color: var(--text-muted); }
+      .r-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; list-style: none; padding: 0; font-size: var(--step--1); }
+      .r-links a { color: var(--rose-200); }
+      .r-sec { display: grid; grid-template-columns: 11rem 1fr; gap: var(--space-l); padding-block: var(--space-l); border-bottom: 1px solid var(--line); }
+      .r-sec:last-child { border-bottom: 0; }
+      .r-sec > h2 { font-family: var(--font-mono); font-size: var(--step--2); letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); padding-top: 0.3rem; }
+      .r-item + .r-item { margin-top: var(--space-m); }
+      .r-item__top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1rem; }
+      .r-item h3 { font-size: var(--step-0); font-weight: 600; line-height: 1.4; }
+      .r-item .meta { font-family: var(--font-mono); font-size: var(--step--2); color: var(--text-muted); white-space: nowrap; }
+      .r-item .sub { color: var(--rose-200); font-size: var(--step--1); }
+      .r-item ul, .r-list { padding-left: 1.1rem; margin-top: 0.4rem; display: grid; gap: 0.3rem; color: var(--text-muted); font-size: var(--step--1); }
+      .r-item li::marker, .r-list li::marker { color: var(--wine-600); }
+      .r-skills { display: grid; gap: 0.35rem; font-size: var(--step--1); color: var(--text-muted); }
+      .r-skills b { color: var(--ivory); font-weight: 500; }
+      .r-note { margin-top: var(--space-l); font-size: var(--step--2); color: var(--faint); font-family: var(--font-mono); }
+      @media (max-width: 680px) { .r-sec { grid-template-columns: 1fr; gap: 0.6rem; } }
 
-        body {
-            font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
-            background-color: #e8e8e8;
-            color: #000;
-            line-height: 1.3;
-            -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-        }
-
-        /* A4 Paper */
-        .resume-container {
-            width: 210mm;
-            height: 297mm;
-            margin: 20px auto;
-            background: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-            padding: 5mm 14mm 10mm 14mm;
-            overflow: hidden;
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            border-bottom: 1.5px solid #000;
-            padding-bottom: 3px;
-            margin-bottom: 4px;
-        }
-
-        h1 {
-            font-size: 27.2px;
-            font-weight: 700;
-            letter-spacing: 2.5px;
-            text-transform: uppercase;
-            margin-bottom: 3px;
-        }
-
-        .contact-info {
-            font-size: 11px;
-            color: #222;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 3px 10px;
-        }
-
-        .contact-info span:not(:last-child)::after {
-            content: " \2022";
-            margin-left: 10px;
-            color: #555;
-        }
-
-        .contact-info a {
-            color: #222;
-            text-decoration: none;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        /* Sections */
-        section {
-            margin-bottom: 3px;
-        }
-
-        .section-title {
-            font-size: 12.8px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: #000;
-            border-bottom: 1px solid #000;
-            padding-bottom: 2px;
-            margin-bottom: 3px;
-            margin-top: 1px;
-        }
-
-        p {
-            font-size: 11.7px;
-            margin-bottom: 2px;
-            color: #111;
-            text-align: justify;
-        }
-
-        /* Entry / Item */
-        .entry {
-            margin-bottom: 4px;
-        }
-
-        .entry-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 0;
-        }
-
-        .entry-title {
-            font-size: 12.5px;
-            font-weight: 700;
-            color: #000;
-            flex: 1;
-            padding-right: 10px;
-        }
-
-        .entry-date {
-            font-size: 11.3px;
-            font-style: italic;
-            color: #333;
-            white-space: nowrap;
-            flex-shrink: 0;
-        }
-
-        .entry-subtitle {
-            display: flex;
-            justify-content: space-between;
-            font-size: 11.5px;
-            font-style: italic;
-            color: #333;
-            margin-bottom: 2px;
-        }
-
-        .entry-meta {
-            font-size: 11.3px;
-            font-style: italic;
-            color: #333;
-            margin-bottom: 0;
-        }
-
-        .entry-link {
-            font-size: 11.3px;
-            margin-bottom: 2px;
-        }
-
-        .entry-link a {
-            color: #000;
-            text-decoration: underline;
-        }
-
-        ul {
-            margin-left: 16px;
-            font-size: 11.7px;
-            color: #111;
-            margin-bottom: 1px;
-        }
-
-        li {
-            margin-bottom: 0;
-            text-align: justify;
-            padding-left: 2px;
-            line-height: 1.25;
-        }
-
-        /* Skills */
-        .skills-list div {
-            font-size: 11.7px;
-            color: #111;
-            margin-bottom: 1px;
-            text-align: justify;
-        }
-
-        .skills-list strong {
-            font-weight: 700;
-            color: #000;
-        }
-
-        /* Achievements & Interests */
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2px 24px;
-        }
-
-        .two-col-item h4 {
-            font-size: 11.7px;
-            font-weight: 700;
-            color: #000;
-            margin-bottom: 0;
-        }
-
-        .two-col-item p {
-            font-size: 11.3px;
-            color: #222;
-            margin-bottom: 0;
-            text-align: justify;
-            line-height: 1.25;
-        }
-
-        .two-col-item a {
-            color: #000;
-            text-decoration: underline;
-            font-style: italic;
-            font-weight: 400;
-        }
-
-        /* Download Button */
-        .download-btn {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: #111;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: all 0.2s ease;
-            z-index: 1000;
-        }
-
-        .download-btn:hover {
-            background: #333;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-        }
-
-        .download-btn svg {
-            width: 18px;
-            height: 18px;
-            fill: currentColor;
-        }
-
-        /* Print */
-        @media print {
-            .download-btn {
-                display: none !important;
-            }
-
-            @page {
-                size: A4;
-                margin: 0;
-            }
-
-            body {
-                background: #fff;
-            }
-
-            .resume-container {
-                margin: 0;
-                box-shadow: none;
-                width: 210mm;
-                height: 297mm;
-                padding: 5mm 14mm 10mm 14mm;
-                page-break-inside: avoid;
-                overflow: hidden;
-            }
-
-            section {
-                page-break-inside: avoid;
-            }
-
-            .entry {
-                page-break-inside: avoid;
-            }
-
-            .contact-info a,
-            .entry-link a,
-            .two-col-item a {
-                text-decoration: none;
-                color: #000;
-            }
-        }
-    </style>
+      @media print {
+        @page { margin: 14mm 14mm; }
+        :root { --text-muted: #333; --rose-200: #1e2d6e; --accent: #1e2d6e; --ivory: #111; --line: #ddd; --line-strong: #bbb; --faint: #666; }
+        body { background: #fff; color: #111; padding: 0; font-size: 10.5pt; }
+        .bar, .r-note { display: none; }
+        .sheet { border: 0; padding: 0; box-shadow: none; background: none; }
+        .r-sec { break-inside: avoid; padding-block: 0.6rem; }
+        .r-head h1 { font-size: 24pt; }
+        a { color: inherit !important; }
+      }
+    }
+  </style>
 </head>
-
 <body>
-<nav class="portfolio-return" style="text-align:center;padding:16px"><a href="index.html">← Back to portfolio</a></nav>
-<style>@media print{.portfolio-return{display:none}}@media screen and (max-width:800px){.resume-container{width:100%;height:auto;min-height:297mm;overflow:visible;padding:20px}.download-btn{position:static;display:flex;margin:0 auto 16px}}</style>
-
-    <button class="download-btn" onclick="window.print()" title="Download / Print as PDF">
-        <svg viewBox="0 0 24 24">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-        </svg>
-        Download PDF
-    </button>
-
-    <div class="resume-container">
-
-        <header>
-            <h1>Challa Mahesh</h1>
-            <div class="contact-info">
-                <span>+91 8712130740</span>
-                <span><a href="mailto:mahesh.ch0127@gmail.com">mahesh.ch0127@gmail.com</a></span>
-                <span><a href="https://www.linkedin.com/in/mahesh-challa/" target="_blank">LinkedIn</a></span>
-                <span><a href="https://github.com/MaheshChalla2701" target="_blank">GitHub</a></span>
-                <span><a href="https://maheshchalla2701.github.io/" target="_blank">Portfolio</a></span>
-                <span>Hyderabad, Telangana, India</span>
-            </div>
-        </header>
-
-        <section>
-            <div class="section-title">Professional Summary</div>
-            <p>Results-driven Software Developer and Computer Science Engineering candidate with proven expertise in
-                full-stack development, cross-platform mobile application engineering, and applied machine learning.
-                Hands-on experience building production systems with LLMs, Vision Transformers,
-                and computer vision pipelines, including a publicly released AI-driven mobile application with active
-                users. Strong foundation in modern engineering practices, and emerging artificial
-                intelligence research.</p>
-        </section>
-
-        <section>
-            <div class="section-title">Education</div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Bachelor of Engineering, Computer Science and Engineering</span>
-                    <span class="entry-date">2023 – 2027</span>
-                </div>
-                <div class="entry-subtitle">
-                    <span>Keshav Memorial Engineering College</span>
-                    <span>Hyderabad, Telangana</span>
-                </div>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Intermediate (Higher Secondary Education)</span>
-                    <span class="entry-date">2021 – 2023</span>
-                </div>
-                <div class="entry-subtitle">
-                    <span>Harvest Junior College</span>
-                    <span>Hyderabad, Telangana</span>
-                </div>
-            </div>
-
-
-        </section>
-
-        <section>
-            <div class="section-title">Projects</div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">FIZI — AI-Powered Fitness Application</span>
-                    <span class="entry-date">September 2025 – Present</span>
-                </div>
-                <div class="entry-meta">Technologies: React Native, Expo, TypeScript, Firebase, Python, Flask,
-                    MediaPipe, Render</div>
-                <div class="entry-link"><a href="https://play.google.com/store/apps/details?id=com.maheshchalla.fizi"
-                        target="_blank">Google Play Store: FIZI</a></div>
-                <ul>
-                    <li>Architected and developed a mobile fitness platform incorporating AI-driven workout form
-                        analysis and personalized nutrition</li>
-                    <li>Successfully published the application on the Google Play Store, achieving over 100 downloads
-                        within the first month of release</li>
-                    <li>Delivered key product features, including adaptive workout programs, performance analytics, and
-                        intelligent dietary recommendations</li>
-                </ul>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">SplitPlan — AI-Powered Expense Sharing &amp; Trip Planning
-                        Application</span>
-                    <span class="entry-date">February 2026 – Present</span>
-                </div>
-                <div class="entry-meta">Technologies: Flutter, Firebase,
-                    Groq Vision LLM, go_router, Freezed, Riverpod, Render</div>
-                <div class="entry-link"><a href="https://play.google.com/store/apps/details?id=com.splitplan.splitplan"
-                        target="_blank">Google Play Store: SplitPlan</a></div>
-                <ul>
-                    <li>Published a cross-platform Flutter app on Google Play Store that helps roommates, friends, and
-                        travel groups split expenses, plan trips, request payments, and export reports (CSV/PDF/Excel)
-                        in one place</li>
-                    <li>Added Groq Vision LLM receipt OCR to auto-fill expenses from a photo, plus FCM push nudges and
-                        real-time Firestore sync to keep all members updated</li>
-                </ul>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Operation Evolve — Autonomous Self-Improving AI Ecosystem</span>
-                    <span class="entry-date">March 2026 – April 2026</span>
-                </div>
-                <div class="entry-meta">Technologies: Python, PyTorch, Mixture-of-Experts (MoE), Transformers,
-                    Continual Learning (LwF), Groq LLM API, tiktoken</div>
-                <div class="entry-link"><a href="https://github.com/MaheshChalla2701/Operation-Evolve"
-                        target="_blank">GitHub Repository: Operation-Evolve</a></div>
-                <ul>
-                    <li>Designed a sparse Mixture-of-Experts (MoE) Transformer with a two-level hierarchical router,
-                        activating specialized sub-networks per token to reduce compute over dense feed-forward
-                        baselines</li>
-                    <li>Implemented a continual-learning engine using Learning-without-Forgetting (LwF) and an
-                        L2-filtered replay buffer to ingest sequential tasks without catastrophic forgetting</li>
-                    <li>Built a multi-threaded orchestrator integrating a Groq LLM agent that analyzes class-level
-                        failure rates and autonomously proposes targeted dataset purges and mining loops while the GPU
-                        trains concurrently</li>
-                </ul>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Collaborative AI — Multi-Model LLM Council Deliberation System</span>
-                    <span class="entry-date">December 2025 – March 2026</span>
-                </div>
-                <div class="entry-meta">Technologies: Python, FastAPI, React, Firebase,
-                    Multi-Provider LLM APIs, Agentic AI Pipelines</div>
-                <div class="entry-link"><a href="https://github.com/MaheshChalla2701/collaborative-ai"
-                        target="_blank">GitHub Repository: collaborative-ai</a></div>
-                <ul>
-                    <li>Engineered a 3-stage LLM deliberation pipeline routing queries in parallel to diverse providers (Groq, Gemini, Cerebras, OpenRouter) with graceful degradation, culminating in a "Chairman" model synthesis</li>
-                    <li>Designed an anonymized peer-review stage where models rank each other's responses under
-                        "Response A/B/C" labels to eliminate identity bias, aggregated by average position</li>
-                    <li>Integrated Firebase Authentication and Firestore to implement dynamic per-user API key configurations and a long-term persistent memory system that automatically extracts facts across conversations</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-title">Technical Skills</div>
-            <div class="skills-list">
-                <div><strong>Programming Languages:</strong> Java, Python, TypeScript, JavaScript, C, HTML, CSS
-                </div>
-                <div><strong>Application &amp; Web Development:</strong> React Native, Expo, Flutter,
-                    Node.js, Express.js, FastAPI, Riverpod</div>
-                <div><strong>Databases:</strong> MySQL, MongoDB, Firebase (Firestore)</div>
-                <div><strong>Libraries &amp; Frameworks:</strong> PyTorch, TensorFlow, Transformers, MediaPipe, OpenCV,
-                    Pandas, NumPy, Scikit-learn, Matplotlib</div>
-                <div><strong>AI/ML Specializations:</strong> Large Language Models (LLMs), Mixture-of-Experts (MoE),
-                    Continual Learning, Agentic AI Pipelines, Multi-Agent Systems, Vision-Language Models, Computer
-                    Vision, Retrieval-Augmented Generation (RAG)</div>
-                <div><strong>DevOps &amp; Cloud:</strong> Git, GitHub, Docker, Kubernetes, Render</div>
-                <div><strong>Testing &amp; QA:</strong> Manual Testing, Automation Testing, Selenium WebDriver,
-                    Regression Testing, SDLC, STLC, Defect Tracking</div>
-                <div><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Machine Learning, Mobile
-                    Application Development</div>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-title">Key Achievements</div>
-            <div class="two-col">
-                <div class="two-col-item">
-                    <h4>Published Mobile Application</h4>
-                    <p>Successfully launched an AI-driven fitness application on the Google Play Store, surpassing 100
-                        downloads within the first month of release.</p>
-                </div>
-                <div class="two-col-item">
-                    <h4>Mixture-of-Experts Architecture</h4>
-                    <p>Engineered a sparse Mixture-of-Experts Transformer with hierarchical routing and a continual
-                        learning pipeline driven by an autonomous LLM agent.</p>
-                </div>
-                <div class="two-col-item">
-                    <h4>AI-Driven Receipt OCR</h4>
-                    <p>Integrated Groq Vision LLM into a Flutter application to automatically extract expense amounts
-                        from photographed receipts.</p>
-                </div>
-                <div class="two-col-item">
-                    <h4>Monetization Integration</h4>
-                    <p>Implemented Google Play Billing, enabling subscription and in-app purchase functionality to
-                        support sustainable application revenue.</p>
-                </div>
-            </div>
-        </section>
-
+  <main class="container" style="max-width: 920px">
+    <div class="bar">
+      <a class="btn btn--ghost btn--small" href="./">← Back to portfolio</a>
+      <div class="bar__actions">
+        <button class="btn btn--primary btn--small" type="button" onclick="window.print()">Save as PDF / Print</button>
+      </div>
     </div>
 
-</body>
+    <article class="sheet">
+      <header class="r-head">
+        <h1>Challa <em>Mahesh</em></h1>
+        <p class="role">UI/UX Designer · Product Builder · Frontend &amp; Mobile Developer — B.E. Computer Science</p>
+        <ul class="r-links">
+          <li><a class="link-u" href="mailto:mahesh.ch2701@gmail.com">mahesh.ch2701@gmail.com</a></li>
+          <li><a class="link-u" href="https://github.com/MaheshChalla2701" target="_blank" rel="noopener">github.com/MaheshChalla2701</a></li>
+          <li><a class="link-u" href="https://www.linkedin.com/in/mahesh-challa-54b60a283/" target="_blank" rel="noopener">linkedin.com/in/mahesh-challa</a></li>
+          <li><a class="link-u" href="https://maheshchalla2701.github.io/MaheshChalla2701/">Portfolio</a></li>
+          <li><span>Hyderabad, Telangana, India</span></li>
+        </ul>
+      </header>
 
+      <section class="r-sec">
+        <h2>Summary</h2>
+        <p style="color: var(--text-muted); font-size: var(--step--1); line-height: 1.6;">
+          UI/UX Designer and frontend/mobile developer pursuing a B.E. in Computer Science. I transform product workflows into clear, polished mobile and web experiences, combining interaction design, visual design systems, and engineering across fitness, finance, and AI products. Creator of FIZI and SplitPlan (both live on Google Play).
+        </p>
+      </section>
+
+      <section class="r-sec">
+        <h2>Education</h2>
+        <div>
+          <div class="r-item">
+            <div class="r-item__top"><h3>Keshav Memorial Engineering College</h3><span class="meta">2023 – 2027</span></div>
+            <p class="sub">Bachelor of Engineering, Computer Science and Engineering — Hyderabad, Telangana</p>
+            <ul>
+              <li>Focusing on Artificial Intelligence, Machine Learning, Computer Vision, and Software Engineering.</li>
+              <li>Building production-ready software products alongside curriculum.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Skills</h2>
+        <div class="r-skills">
+          <p><b>UI/UX Design:</b> Interaction Design, User Flows, Information Architecture, Visual Design Systems, Responsive UI, Rapid Prototyping in Code</p>
+          <p><b>Mobile &amp; Frontend:</b> Flutter, Dart, Riverpod, React Native, Expo, React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS</p>
+          <p><b>AI / ML &amp; Vision:</b> Python, PyTorch, TensorFlow, OpenCV, Convolutional Neural Networks (CNN), ANN, LLM Integration, LangChain</p>
+          <p><b>Backend &amp; Cloud:</b> FastAPI, Node.js, Express, Firebase (Auth, Firestore, Hosting), REST APIs</p>
+          <p><b>Tools &amp; Platforms:</b> Figma, Blender, Git, GitHub, Google Play Console release workflows, Docker</p>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Projects</h2>
+        <div>
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/FIZI" target="_blank" rel="noopener">FIZI – AI Fitness Platform</a></h3>
+              <span class="meta">Sep 2025 – Present</span>
+            </div>
+            <p class="sub">React, TypeScript, React Native, Expo, Flutter, Firebase · <a class="link-u" href="https://play.google.com/store/apps/details?id=com.maheshchalla.fizi" target="_blank" rel="noopener">Google Play Store</a> · <a class="link-u" href="https://advi-fc220.web.app/" target="_blank" rel="noopener">Live Website</a></p>
+            <ul>
+              <li>Designed and built an immersive web landing experience with scroll-driven AI constellation storytelling, animated day/night themes, and responsive sign-up flows.</li>
+              <li>Engineered cross-platform mobile application with workout tracking, nutrition planning, community dashboards, and real-time plan adaptation. Published on Google Play.</li>
+            </ul>
+          </div>
+
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/SplitPlan" target="_blank" rel="noopener">SplitPlan – Expense Sharing &amp; Trip Planning</a></h3>
+              <span class="meta">Feb 2026 – Present</span>
+            </div>
+            <p class="sub">Flutter, Dart, Riverpod, Firebase · <a class="link-u" href="https://play.google.com/store/apps/details?id=com.splitplan.splitplan" target="_blank" rel="noopener">Google Play Store</a></p>
+            <ul>
+              <li>Designed and implemented group expense, trip itinerary, receipt-scanning, and settlement flows with clear balance states, export options, and coordinated light and dark themes.</li>
+              <li>Published and live on the Google Play Store with real-time syncing and offline-first state handling.</li>
+            </ul>
+          </div>
+
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/collaborative-ai" target="_blank" rel="noopener">Collaborative AI – Multi-Model LLM Council</a></h3>
+              <span class="meta">Dec 2025 – Mar 2026</span>
+            </div>
+            <p class="sub">React, FastAPI, Firebase, Python, Multi-LLM Orchestration</p>
+            <ul>
+              <li>Created an interactive review workflow for parallel AI answers, anonymous peer rankings, synthesized consensus responses, and saved contextual conversations.</li>
+              <li>Engineered individual views for each deliberation stage with asynchronous stream processing.</li>
+            </ul>
+          </div>
+
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/Safe-Street" target="_blank" rel="noopener">SafeStreet – Road Damage Detection</a></h3>
+              <span class="meta">2026</span>
+            </div>
+            <p class="sub">Python, OpenCV, CNN, TensorFlow, Computer Vision</p>
+            <ul>
+              <li>Built a deep learning vision pipeline using Convolutional Neural Networks to detect potholes, cracks, and road surface hazards from real-world imagery.</li>
+              <li>Implemented automated image pre-processing with OpenCV to normalise lighting conditions and isolate pavement segments.</li>
+            </ul>
+          </div>
+
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/Operation-Evolve" target="_blank" rel="noopener">Operation Evolve – Self-Evolving AI Training System</a></h3>
+              <span class="meta">2026</span>
+            </div>
+            <p class="sub">Python, PyTorch, Reinforcement Learning, Autonomous Agents</p>
+            <ul>
+              <li>Designed a recursive self-improvement AI pipeline where models introspect on validation errors and rewrite training parameters autonomously.</li>
+              <li>Created an iterative experiment loop tracking architectural improvements across generations.</li>
+            </ul>
+          </div>
+
+          <div class="r-item">
+            <div class="r-item__top">
+              <h3><a class="link-u" href="https://github.com/MaheshChalla2701/CNN-FROM-SCRATCH" target="_blank" rel="noopener">CNN from Scratch</a></h3>
+              <span class="meta">2026</span>
+            </div>
+            <p class="sub">Python, NumPy, Mathematical Modeling</p>
+            <ul>
+              <li>Implemented a complete Convolutional Neural Network from mathematical first principles using pure NumPy with zero ML libraries.</li>
+              <li>Hand-derived and coded 2D convolution filters, ReLU activations, max-pooling layers, and backpropagation gradients.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="r-sec">
+        <h2>Highlights</h2>
+        <ul class="r-list">
+          <li><strong>Production Apps:</strong> 2 applications live on Google Play (FIZI, SplitPlan).</li>
+          <li><strong>Deep Learning:</strong> Implemented deep neural architectures from mathematical scratch (NumPy) to production CV (TensorFlow/OpenCV).</li>
+          <li><strong>Open Source:</strong> Active project repositories covering AI, mobile engineering, and computer vision on GitHub.</li>
+        </ul>
+      </section>
+    </article>
+    <p class="r-note">Contact details limited to email for privacy. Use “Save as PDF” to download a copy.</p>
+  </main>
+</body>
 </html>

@@ -34,10 +34,10 @@ async function loadData() {
     const res = await fetch("data/contributions.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(res.status);
     const json = await res.json();
-    if (json.login !== 'MaheshChalla2701' || !Array.isArray(json.days) || json.days.length === 0) throw new Error("unavailable");
+    if (!Array.isArray(json.days) || json.days.length === 0) throw new Error("empty");
     return { demo: false, ...json };
   } catch {
-    return { unavailable: true, days: [] };
+    return demoData();
   }
 }
 
@@ -66,12 +66,6 @@ export async function initHeatmap(root) {
   const stat = (k) => root.querySelector(`[data-stat="${k}"]`);
 
   const data = await loadData();
-  if (data.unavailable) {
-    source.textContent = 'Public activity is temporarily unavailable. Visit github.com/MaheshChalla2701 to view the latest calendar.';
-    readout.textContent = 'No activity figures are shown while the snapshot is unavailable.';
-    root.querySelectorAll('[data-range]').forEach(button => button.disabled = true);
-    return;
-  }
   const days = data.days;
   const sourceLabel = data.demo ? "illustrative sample data" : "public GitHub contribution calendar";
 

@@ -10,8 +10,8 @@ const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
 /* --------------------------------------------------------------- Intro --- */
 // Only play the opening sequence once per session.
 try {
-  if (sessionStorage.getItem("mc-intro")) document.documentElement.classList.add("no-intro");
-  sessionStorage.setItem("mc-intro", "1");
+  if (sessionStorage.getItem("sd-intro")) document.documentElement.classList.add("no-intro");
+  sessionStorage.setItem("sd-intro", "1");
 } catch { /* storage blocked — intro just plays */ }
 
 const introDelay = document.documentElement.classList.contains("no-intro") || reduceMotion.matches ? 0 : 900;
@@ -310,10 +310,3 @@ initTicker();
 initHeatmap($("[data-heatmap]"));
 
 $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
-
-const motionButton = $("[data-motion]");
-motionButton?.addEventListener("click", () => {
-  const paused = document.documentElement.classList.toggle("motion-paused");
-  motionButton.setAttribute("aria-pressed", String(paused));
-  motionButton.textContent = paused ? "Resume animations" : "Pause animations";
-});
