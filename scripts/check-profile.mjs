@@ -12,7 +12,7 @@ for(const m of html.matchAll(/href="#([^"]+)"/g))assert(ids.includes(m[1]),`Brok
 const headings=[...readme.matchAll(/^#{1,6} (.+)$/gm)].map(m=>m[1].toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu,'').replace(/\s/g,'-'));
 for(const m of readme.matchAll(/\]\(#([^)]*)\)/g))assert(headings.includes(m[1]),`Broken README anchor ${m[1]}`);
 assert.deepEqual([...readme.matchAll(/^### (FIZI|SplitPlan|Operation Evolve|Collaborative AI)$/gm)].map(m=>m[1]),['FIZI','SplitPlan','Operation Evolve','Collaborative AI']);
-for(const heading of ['About','GitHub activity','Selected projects','Skills','Milestones','Journey','Contact'])assert(readme.includes(`## ${heading}\n`),`Missing README section ${heading}`);
+for(const heading of ['01 · About','02 · Recognition','03 · Selected work','04 · Toolkit','05 · Activity','06 · Education','07 · Connect'])assert(readme.includes(`## ${heading}\n`),`Missing README section ${heading}`);
 assert(readme.includes('CNN, ANN'),'Missing requested AI skills');
 assert(readme.includes('assets/mahesh-hero.png'),'README needs the portable portrait banner');
 assert(fs.readFileSync('assets/mahesh-hero.png').subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])),'Invalid portrait PNG');

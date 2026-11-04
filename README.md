@@ -10,9 +10,9 @@ I build intelligent mobile products and explore how AI systems learn and reason 
 
 [Portfolio](https://maheshchalla2701.github.io/MaheshChalla2701/) · [Resume](https://maheshchalla2701.github.io/MaheshChalla2701/resume.html) · [LinkedIn](https://www.linkedin.com/in/mahesh-challa/) · [Email](mailto:mahesh.ch0127@gmail.com)
 
-[About](#about) · [Activity](#github-activity) · [Projects](#selected-projects) · [Skills](#skills) · [Milestones](#milestones) · [Journey](#journey) · [Contact](#contact)
+[About](#01--about) · [Recognition](#02--recognition) · [Projects](#03--selected-work) · [Toolkit](#04--toolkit) · [Activity](#05--activity) · [Education](#06--education) · [Connect](#07--connect)
 
-## About
+## 01 · About
 
 <img src="assets/mahesh-title-about.svg" width="100%" alt="About — Curiosity starts it. Building makes it real.">
 
@@ -28,15 +28,19 @@ FIZI and SplitPlan explore everyday needs. Operation Evolve and Collaborative AI
 
 - **Make improvements measurable.** Use evaluation, feedback and checkpoints when exploring learning systems.
 
-## GitHub activity
+## 02 · Recognition
 
-<img src="assets/mahesh-title-activity.svg" width="100%" alt="Commit log — A year of building, one square at a time.">
+<img src="assets/mahesh-title-recognition.svg" width="100%" alt="Recognition — Work you can explore.">
 
-<img src="assets/contribution-snake.svg" width="100%" alt="Mahesh Challa’s public GitHub contribution calendar, refreshed daily">
+- **FIZI & SplitPlan.** Fitness coaching and shared expenses, from interface to backend.
 
-[View my GitHub activity](https://github.com/MaheshChalla2701?tab=overview)
+- **Continual learning.** Operation Evolve explores dataset changes, replay and sparse expert models.
 
-## Selected projects
+- **Collaborative reasoning.** Anonymous peer review connects multiple LLM perspectives.
+
+- **Four selected projects.** FIZI, SplitPlan, Operation Evolve and Collaborative AI.
+
+## 03 · Selected work
 
 <img src="assets/mahesh-title-work.svg" width="100%" alt="Selected work — Products, pipelines, and experiments.">
 
@@ -88,7 +92,7 @@ Language models answer in parallel, rank anonymized responses and pass the resul
 
 [Repository ↗](https://github.com/MaheshChalla2701/collaborative-ai)
 
-## Skills
+## 04 · Toolkit
 
 <img src="assets/mahesh-title-toolkit.svg" width="100%" alt="Toolkit — Tools with a purpose.">
 
@@ -120,43 +124,29 @@ Language models answer in parallel, rank anonymized responses and pass the resul
 
 - **Git / Docker** — Version control and reproducible environments.
 
-## Milestones
+## 05 · Activity
 
-<img src="assets/mahesh-title-milestones.svg" width="100%" alt="Milestones — Work you can explore.">
+<img src="assets/mahesh-title-activity.svg" width="100%" alt="Activity — A year of building, one square at a time.">
 
-- **FIZI & SplitPlan.** Fitness coaching and shared expenses, from interface to backend.
+<img src="assets/contribution-snake.svg" width="100%" alt="Mahesh Challa’s public GitHub contribution calendar, refreshed daily">
 
-- **Continual learning.** Operation Evolve explores dataset changes, replay and sparse expert models.
+[View my GitHub activity](https://github.com/MaheshChalla2701?tab=overview)
 
-- **Collaborative reasoning.** Anonymous peer review connects multiple LLM perspectives.
+## 06 · Education
 
-- **Four selected projects.** FIZI, SplitPlan, Operation Evolve and Collaborative AI.
+<img src="assets/mahesh-title-education.svg" width="100%" alt="Education — Learning, building, evolving.">
 
-## Journey
+- **Degree:** B.E. Computer Science
 
-<img src="assets/mahesh-title-journey.svg" width="100%" alt="Journey — Learning, building, evolving.">
+- **College:** Keshav Memorial Engineering College
 
-### B.E. Computer Science
+- **Study period:** 2023 — 2027
 
-**2023 — 2027 · Keshav Memorial Engineering College**
+- **Focus:** AI, mobile & deep learning
 
-Studying software, algorithms and intelligent systems.
+## 07 · Connect
 
-### FIZI & SplitPlan
-
-**PRODUCT DEVELOPMENT · Mobile products**
-
-Building app interfaces, backend integrations and complete user workflows.
-
-### Operation Evolve & Collaborative AI
-
-**RESEARCH EXPLORATION · Learning and reasoning systems**
-
-Exploring continual model improvement and multi-model deliberation.
-
-## Contact
-
-<img src="assets/mahesh-title-connect.svg" width="100%" alt="Contact — Let’s build something worth explaining.">
+<img src="assets/mahesh-title-connect.svg" width="100%" alt="Connect — Let’s build something worth explaining.">
 
 Have a problem worth solving, or want to talk AI products and backend systems? My inbox is open.
 

@@ -28,17 +28,18 @@ const parts = [
   '**AI & Mobile Developer · Building useful intelligence**',
   text(one(html, /<p class="hero__lede"[^>]*>([\s\S]*?)<\/p>/)),
   `[Portfolio](${portfolio}) · [Resume](${portfolio}resume.html) · [LinkedIn](https://www.linkedin.com/in/mahesh-challa/) · [Email](mailto:mahesh.ch0127@gmail.com)`,
-  '[About](#about) · [Activity](#github-activity) · [Projects](#selected-projects) · [Skills](#skills) · [Milestones](#milestones) · [Journey](#journey) · [Contact](#contact)',
-  '## About', banner('about', '01', 'About', title(section('about'))),
+  '[About](#01--about) · [Recognition](#02--recognition) · [Projects](#03--selected-work) · [Toolkit](#04--toolkit) · [Activity](#05--activity) · [Education](#06--education) · [Connect](#07--connect)',
+  '## 01 · About', banner('about', '01', 'About', title(section('about'))),
   ...paragraphs(one(section('about'), /<div class="about__intro"[^>]*>([\s\S]*?)<\/div>/)),
 ];
 for (const principle of all(section('about'), /<li class="principle"[^>]*>([\s\S]*?)<\/li>/g)) {
   parts.push(`- **${title(principle)}.** ${paragraphs(principle).join(' ')}`);
 }
-parts.push('## GitHub activity', banner('activity', '02', 'Commit log', title(section('activity'))),
-  '<img src="assets/contribution-snake.svg" width="100%" alt="Mahesh Challa’s public GitHub contribution calendar, refreshed daily">',
-  '[View my GitHub activity](https://github.com/MaheshChalla2701?tab=overview)',
-  '## Selected projects', banner('work', '03', 'Selected work', title(section('projects'))));
+parts.push('## 02 · Recognition', banner('recognition', '02', 'Recognition', title(section('achievements'))));
+for (const honor of all(section('achievements'), /<div class="honor__body">([\s\S]*?)<\/div>/g)) {
+  parts.push(`- **${title(honor)}.** ${paragraphs(honor).join(' ')}`);
+}
+parts.push('## 03 · Selected work', banner('work', '03', 'Selected work', title(section('projects'))));
 const projects = [...section('projects').matchAll(/<article class="case" id="project-([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)];
 assert.deepEqual(projects.map(match => match[1]), ['fizi', 'splitplan', 'evolve', 'council']);
 for (const [, slug, project] of projects) {
@@ -50,23 +51,22 @@ for (const [, slug, project] of projects) {
     ...paragraphs(one(project, /<details\b[^>]*>([\s\S]*?)<\/details>/)),
     `**Built with:** ${all(one(project, /<ul class="tags"[^>]*>([\s\S]*?)<\/ul>/), /<li>([\s\S]*?)<\/li>/g).map(text).join(' · ')}`, links);
 }
-parts.push('## Skills', banner('toolkit', '04', 'Toolkit', title(section('skills'))));
+parts.push('## 04 · Toolkit', banner('toolkit', '04', 'Toolkit', title(section('skills'))));
 for (const panel of all(section('skills'), /<div class="panel"[^>]*>([\s\S]*?)<\/div>/g)) {
   parts.push(`### ${title(panel)}`);
   for (const match of panel.matchAll(/<button\b[^>]*data-note="([^"]+)"[^>]*>([\s\S]*?)<\/button>/g)) {
     parts.push(`- **${text(match[2]).replace('CNN / ANN', 'CNN, ANN')}** — ${text(match[1])}`);
   }
 }
-parts.push('## Milestones', banner('milestones', '05', 'Milestones', title(section('achievements'))));
-for (const honor of all(section('achievements'), /<div class="honor__body">([\s\S]*?)<\/div>/g)) {
-  parts.push(`- **${title(honor)}.** ${paragraphs(honor).join(' ')}`);
+parts.push('## 05 · Activity', banner('activity', '05', 'Activity', title(section('activity'))),
+  '<img src="assets/contribution-snake.svg" width="100%" alt="Mahesh Challa’s public GitHub contribution calendar, refreshed daily">',
+  '[View my GitHub activity](https://github.com/MaheshChalla2701?tab=overview)');
+parts.push('## 06 · Education', banner('education', '06', 'Education', 'Learning, building, evolving.'));
+const education = one(section('about'), /<dl class="facts"[^>]*>([\s\S]*?)<\/dl>/);
+for (const fact of all(education, /<div>([\s\S]*?)<\/div>/g)) {
+  parts.push(`- **${text(one(fact, /<dt[^>]*>([\s\S]*?)<\/dt>/))}:** ${text(one(fact, /<dd>([\s\S]*?)<\/dd>/))}`);
 }
-parts.push('## Journey', banner('journey', '06', 'Journey', title(section('experience'))));
-for (const entry of all(section('experience'), /<article class="entry"[^>]*>([\s\S]*?)<\/article>/g)) {
-  const [date, org, detail] = paragraphs(entry);
-  parts.push(`### ${title(entry)}`, `**${date} · ${org}**`, detail);
-}
-parts.push('## Contact', banner('connect', '07', 'Contact', 'Let’s build something worth explaining.'),
+parts.push('## 07 · Connect', banner('connect', '07', 'Connect', 'Let’s build something worth explaining.'),
   text(one(section('contact'), /<p class="contact__lede"[^>]*>([\s\S]*?)<\/p>/)),
   '[Email](mailto:mahesh.ch0127@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mahesh-challa/) · [GitHub](https://github.com/MaheshChalla2701)',
   '<img src="assets/mahesh-footer.svg" width="100%" alt="Mahesh Challa — Build. Learn. Evolve.">');
