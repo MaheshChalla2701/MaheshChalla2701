@@ -35,11 +35,10 @@
   <a href="https://github.com/MaheshChalla2701/collaborative-ai"><img src="https://img.shields.io/badge/Repository-Collaborative_AI-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="Collaborative AI repository"></a>
 </p>
 
-<a href="https://github.com/MaheshChalla2701/Safe-Street"><img src="assets/project-safestreet-v2.svg" width="100%" alt="SafeStreet: Road damage detection and surface hazard classification using deep computer vision and OpenCV. Python, CNN, OpenCV, TensorFlow."></a>
+<a href="https://github.com/MaheshChalla2701/Operation-Evolve"><img src="assets/project-safestreet-v2.svg" width="100%" alt="Operation Evolve: Self-evolving AI training architecture where models introspect on failure modes and iteratively update parameters. Python, PyTorch, Reinforcement Learning, AI Agents."></a>
 <p align="center">
-  <a href="https://github.com/MaheshChalla2701/Safe-Street"><img src="https://img.shields.io/badge/Repository-SafeStreet-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="SafeStreet repository"></a>
-  <a href="https://github.com/MaheshChalla2701/CNN-FROM-SCRATCH"><img src="https://img.shields.io/badge/Repository-CNN_from_Scratch-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="CNN from Scratch repository"></a>
   <a href="https://github.com/MaheshChalla2701/Operation-Evolve"><img src="https://img.shields.io/badge/Repository-Operation_Evolve-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="Operation Evolve repository"></a>
+  <a href="https://github.com/MaheshChalla2701/CNN-FROM-SCRATCH"><img src="https://img.shields.io/badge/Repository-CNN_from_Scratch-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="CNN from Scratch repository"></a>
 </p>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — Tools I build with.">

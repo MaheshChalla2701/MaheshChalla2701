@@ -1,5 +1,5 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p4-t">
-  <title id="p4-t">SafeStreet: Road damage detection and infrastructure safety using computer vision.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p4-t">
+  <title id="p4-t">Operation Evolve: Recursive self-evolving AI training architecture and autonomous optimization.</title>
   <defs>
     <linearGradient id="p4-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D1B14"/><stop offset="1" stop-color="#08110C"/>
@@ -39,45 +39,70 @@
     <rect x="720" width="480" height="370" fill="url(#p4-grid)"/>
     <rect width="1200" height="370" fill="url(#p4-glow)"/>
     <g class="p4-in p4-d1">
-      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#438B6B">04 · COMPUTER VISION · DEEP LEARNING · RESILIENCE</text>
-      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F3F6F1">SafeStreet</text>
-      <text class="p4-sans" x="56" y="166" font-size="17" fill="#AABDB2">Road damage detection and surface hazard classification using deep computer vision.</text>
-      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#A7D8BD"><tspan fill="#438B6B">BUILT ›</tspan> Custom CNN architecture, OpenCV preprocessing, bounding box hazard tagging</text>
+      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#438B6B">04 · AI RESEARCH · AUTONOMOUS SYSTEMS · REINFORCEMENT LEARNING</text>
+      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F3F6F1">Operation Evolve</text>
+      <text class="p4-sans" x="56" y="166" font-size="16.5" fill="#AABDB2">Autonomous architecture where models introspect on failures and iteratively self-tune.</text>
+      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#A7D8BD"><tspan fill="#438B6B">BUILT ›</tspan> Closed-loop experiment runner, error diagnostics, hyperparameter tuning</text>
       <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#438B6B" stroke-opacity=".3"/>
-      <g transform="translate(56 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">CNN MODEL</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">multiclass defect detection</text></g>
-      <g transform="translate(261 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">OPENCV</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">real-time road frame analysis</text></g>
-      <g transform="translate(466 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F3F6F1">HAZARD MAP</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">severity indexing &amp; coordinates</text></g>
-      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="70" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="91" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">OpenCV</text></g>
-      <g class="p4-chip" style="animation-delay:1.12s"><rect x="134" y="314" width="60" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="164" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Python</text></g>
-      <g class="p4-chip" style="animation-delay:1.24s"><rect x="202" y="314" width="55" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="229" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">CNN</text></g>
-      <g class="p4-chip" style="animation-delay:1.36s"><rect x="265" y="314" width="85" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="307" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Deep Learning</text></g>
-      <g class="p4-chip" style="animation-delay:1.48s"><rect x="358" y="314" width="135" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="425" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Smart Infrastructure</text></g>
+      <g transform="translate(56 266)"><text class="p4-serif" font-size="25" font-weight="300" fill="#F3F6F1">AUTONOMOUS</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">closed-loop training tuning</text></g>
+      <g transform="translate(280 266)"><text class="p4-serif" font-size="25" font-weight="300" fill="#F3F6F1">INTROSPECT</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">failure diagnosis &amp; rewrites</text></g>
+      <g transform="translate(500 266)"><text class="p4-serif" font-size="25" font-weight="300" fill="#F3F6F1">EVOLUTION</text><text class="p4-sans" y="24" font-size="12.5" fill="#AABDB2">multi-generation policies</text></g>
+      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="75" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="93" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">PyTorch</text></g>
+      <g class="p4-chip" style="animation-delay:1.12s"><rect x="139" y="314" width="65" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="171" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Python</text></g>
+      <g class="p4-chip" style="animation-delay:1.24s"><rect x="212" y="314" width="165" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="294" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Reinforcement Learning</text></g>
+      <g class="p4-chip" style="animation-delay:1.36s"><rect x="385" y="314" width="85" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="427" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">AI Agents</text></g>
+      <g class="p4-chip" style="animation-delay:1.48s"><rect x="478" y="314" width="115" height="26" rx="13" fill="#163326" stroke="#438B6B" stroke-opacity=".35"/><text class="p4-mono" x="535" y="331" text-anchor="middle" font-size="11.5" fill="#A7D8BD">Self-Evolving</text></g>
     </g>
-    <g class="p4-in p4-d2"><g transform="translate(0 35)">
-      <g transform="translate(860 30)">
-        <!-- CV Camera inspection viewport -->
-        <rect width="220" height="150" rx="12" fill="#08110C" stroke="#438B6B" stroke-opacity=".35"/>
-        <line x1="20" y1="20" x2="40" y2="20" stroke="#438B6B" stroke-width="2"/>
-        <line x1="20" y1="20" x2="20" y2="40" stroke="#438B6B" stroke-width="2"/>
-        <line x1="200" y1="20" x2="180" y2="20" stroke="#438B6B" stroke-width="2"/>
-        <line x1="200" y1="20" x2="200" y2="40" stroke="#438B6B" stroke-width="2"/>
-        
-        <!-- Detected defect bounding box -->
-        <rect x="50" y="45" width="110" height="70" rx="4" fill="none" stroke="#A7D8BD" stroke-width="1.8" stroke-dasharray="3 3"/>
-        <rect x="50" y="30" width="84" height="16" rx="3" fill="#1F5A45"/>
-        <text class="p4-mono" x="54" y="42" font-size="9" fill="#F3F6F1">POTHOLE 94.2%</text>
+    <g class="p4-in p4-d2">
+      <!-- Section Title positioned neatly above the loop -->
+      <text class="p4-mono" x="1010" y="66" text-anchor="middle" font-size="10.5" letter-spacing="2" fill="#438B6B">AUTONOMOUS TRAINING CYCLE</text>
 
-        <!-- Live inspection telemetry -->
-        <g transform="translate(10 170)">
-          <rect width="200" height="46" rx="8" fill="#163326" stroke="#438B6B" stroke-opacity=".2"/>
-          <text class="p4-mono" x="12" y="20" font-size="9.5" fill="#438B6B">LAT 17.3850° N · LON 78.4867° E</text>
-          <text class="p4-mono" x="12" y="36" font-size="10" fill="#F3F6F1">Severity: High · Immediate repair</text>
+      <!-- Circular Evolve Loop Visualization (shifted right to x=1010, radius 88) -->
+      <g transform="translate(1010 190)">
+        <!-- Rotating dashed orbit ring -->
+        <circle r="88" fill="none" stroke="#287A60" stroke-opacity=".4" stroke-width="1.6" stroke-dasharray="5 5">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Animated traveling particles along orbit -->
+        <circle r="4" fill="#E6F2EA" filter="url(#p4-glowf)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="88;88" dur="8s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="3" fill="#A7D8BD" filter="url(#p4-glowf)">
+          <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="cx" values="88;88" dur="8s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Orbit Stage Badges -->
+        <!-- 01 Train (Top) -->
+        <g transform="translate(0 -88)">
+          <rect x="-38" y="-13" width="76" height="26" rx="13" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".8" stroke-width="1.3"/>
+          <text class="p4-mono" x="0" y="4" text-anchor="middle" font-size="10" fill="#A7D8BD">01 Train</text>
         </g>
+        <!-- 02 Evaluate (Right) -->
+        <g transform="translate(88 0)">
+          <rect x="-46" y="-13" width="92" height="26" rx="13" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".8" stroke-width="1.3"/>
+          <text class="p4-mono" x="0" y="4" text-anchor="middle" font-size="10" fill="#A7D8BD">02 Evaluate</text>
+        </g>
+        <!-- 03 Rewrite (Bottom) -->
+        <g transform="translate(0 88)">
+          <rect x="-42" y="-13" width="84" height="26" rx="13" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".8" stroke-width="1.3"/>
+          <text class="p4-mono" x="0" y="4" text-anchor="middle" font-size="10" fill="#A7D8BD">03 Rewrite</text>
+        </g>
+        <!-- 04 Deploy (Left) -->
+        <g transform="translate(-88 0)">
+          <rect x="-40" y="-13" width="80" height="26" rx="13" fill="#0D1B14" stroke="#438B6B" stroke-opacity=".8" stroke-width="1.3"/>
+          <text class="p4-mono" x="0" y="4" text-anchor="middle" font-size="10" fill="#A7D8BD">04 Deploy</text>
+        </g>
+
+        <!-- Center Hub with perfect text fit -->
+        <circle r="44" fill="#163326" stroke="#438B6B" stroke-width="1.5" filter="url(#p4-glowf)"/>
+        <text class="p4-mono" x="0" y="-4" text-anchor="middle" font-size="8.5" letter-spacing="1.5" fill="#438B6B">RECURSIVE</text>
+        <text class="p4-mono" x="0" y="11" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.8" fill="#F3F6F1">EVOLVE LOOP</text>
       </g>
-    </g></g>
+    </g>
     <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#438B6B" stroke-opacity=".2"/>
     <rect class="p4-trace" style="animation-delay:0.0s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p4-trace)" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>
-
-
