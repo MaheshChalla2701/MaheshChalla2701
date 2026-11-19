@@ -6,7 +6,7 @@
   <a href="https://maheshchalla2701.github.io/MaheshChalla2701/"><img src="https://img.shields.io/badge/Portfolio-maheshchalla2701.github.io-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=githubpages" alt="Portfolio website"></a>
   <a href="https://www.linkedin.com/in/mahesh-challa-54b60a283/"><img src="https://img.shields.io/badge/LinkedIn-mahesh--challa-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=linkedin" alt="LinkedIn profile"></a>
   <a href="https://github.com/MaheshChalla2701"><img src="https://img.shields.io/badge/GitHub-MaheshChalla2701-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="GitHub profile MaheshChalla2701"></a>
-  <a href="mailto:mahesh.ch2701@gmail.com"><img src="https://img.shields.io/badge/Email-mahesh.ch2701@gmail.com-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=gmail" alt="Email mahesh.ch2701@gmail.com"></a>
+  <a href="mailto:mahesh.ch0127@gmail.com"><img src="https://img.shields.io/badge/Email-mahesh.ch0127@gmail.com-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=gmail" alt="Email mahesh.ch0127@gmail.com"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Mahesh.">
@@ -20,7 +20,7 @@
 <a href="https://play.google.com/store/apps/details?id=com.maheshchalla.fizi"><img src="assets/project-fizi-v2.svg" width="100%" alt="FIZI: AI-powered fitness ecosystem published on Google Play. Adaptive workouts, nutrition intelligence, and real-time guidance. Flutter, Dart, Firebase, Node.js."></a>
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.maheshchalla.fizi"><img src="https://img.shields.io/badge/Google_Play-Live_App-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=googleplay" alt="FIZI Google Play store link"></a>
-  <a href="https://advi-fc220.web.app/"><img src="https://img.shields.io/badge/Live_Web-advi--fc220.web.app-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=firebase" alt="FIZI live web app"></a>
+  <a href="https://fizi.co.in/"><img src="https://img.shields.io/badge/Live_Web-fizi.co.in-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=googlechrome" alt="FIZI website"></a>
   <a href="https://github.com/MaheshChalla2701/FIZI"><img src="https://img.shields.io/badge/Repository-FIZI-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="FIZI repository"></a>
 </p>
 
@@ -32,6 +32,7 @@
 
 <a href="https://github.com/MaheshChalla2701/collaborative-ai"><img src="assets/project-collaborative-ai-v2.svg" width="100%" alt="Collaborative AI: Multi-LLM consensus platform orchestrating collaborative debate between GPT-4, Claude, and Gemini. FastAPI, Python, React, Firebase."></a>
 <p align="center">
+  <a href="https://collaborative-ai-eight.vercel.app/"><img src="https://img.shields.io/badge/Live_Web-collaborative--ai--eight.vercel.app-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=vercel" alt="Collaborative AI live web app"></a>
   <a href="https://github.com/MaheshChalla2701/collaborative-ai"><img src="https://img.shields.io/badge/Repository-Collaborative_AI-1F5A45?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="Collaborative AI repository"></a>
 </p>
 
@@ -54,7 +55,7 @@
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something real.">
 
 <p align="center">
-  <a href="mailto:mahesh.ch2701@gmail.com"><img src="https://img.shields.io/badge/Email-mahesh.ch2701@gmail.com-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=gmail" alt="Email mahesh.ch2701@gmail.com"></a>
+  <a href="mailto:mahesh.ch0127@gmail.com"><img src="https://img.shields.io/badge/Email-mahesh.ch0127@gmail.com-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=gmail" alt="Email mahesh.ch0127@gmail.com"></a>
   <a href="https://www.linkedin.com/in/mahesh-challa-54b60a283/"><img src="https://img.shields.io/badge/LinkedIn-mahesh--challa-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=linkedin" alt="LinkedIn profile"></a>
   <a href="https://github.com/MaheshChalla2701"><img src="https://img.shields.io/badge/GitHub-MaheshChalla2701-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=github" alt="GitHub profile"></a>
   <a href="https://maheshchalla2701.github.io/MaheshChalla2701/"><img src="https://img.shields.io/badge/Portfolio-maheshchalla2701.github.io-287A60?style=for-the-badge&labelColor=0D1B14&logoColor=F3F6F1&logo=githubpages" alt="Portfolio website"></a>
